@@ -1,16 +1,16 @@
-{
-    "version":  "1.9.69",
-    "packageType":  "zip",
-    "downloadUrl":  "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXV1.9.69.zip",
-    "fileName":  "DropXV1.9.69.zip",
-    "whatnotRuntimeUrl":  "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
-    "whatnotRuntimeVersion":  "3",
-    "harvesterRuntimeUrl":  "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
-    "harvesterRuntimeVersion":  "1",
-    "notes":  [
-                  "DropX 1.9.69",
-                  "Whatnot runtime v3 with branded Whatnot exe icons",
-                  "Public configs exclude personal email and Gmail credentials",
-                  "Whatnot tab: Launch, overlay, A17 provision, device check, and bundled adb"
-              ]
-}
+﻿{
+    "version":  "1.9.69",
+    "packageType":  "zip",
+    "downloadUrl":  "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.69/DropXV1.9.69.zip",
+    "fileName":  "DropXV1.9.69.zip",
+    "whatnotRuntimeUrl":  "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
+    "whatnotRuntimeVersion":  "3",
+    "harvesterRuntimeUrl":  "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
+    "harvesterRuntimeVersion":  "1",
+    "notes":  [
+                  "DropX 1.9.69",
+                  "Whatnot runtime v3 with branded Whatnot exe icons",
+                  "Public configs exclude personal email and Gmail credentials",
+                  "Whatnot tab: Launch, overlay, A17 provision, device check, and bundled adb"
+              ]
+}
