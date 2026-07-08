@@ -1,15 +1,19 @@
 {
-    "version":  "1.9.71",
-    "packageType":  "zip",
-    "downloadUrl":  "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.71/DropXV1.9.71.zip",
-    "fileName":  "DropXV1.9.71.zip",
-    "whatnotRuntimeUrl":  "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
-    "whatnotRuntimeVersion":  "4",
-    "harvesterRuntimeUrl":  "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
-    "harvesterRuntimeVersion":  "1",
-    "notes":  [
-                  "Whatnot runtime v4",
-                  "Latest WhatnotBot and WhatnotOverlay build",
-                  "Existing DropX installs re-download on next Launch Whatnot"
-              ]
+  "version": "1.9.89",
+  "packageType": "zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.89/DropXV1.9.89.zip",
+  "fileName": "DropXV1.9.89.zip",
+  "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
+  "whatnotRuntimeVersion": "4",
+  "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
+  "harvesterRuntimeVersion": "1",
+  "notes": [
+    "DropX 1.9.89",
+    "Security hardening: signed updates, protected license verifier, sanitized public config",
+    "Whatnot runtime v4 (unchanged this release)"
+  ],
+  "sha256": "716c7ed03394cdc9e111270a75f59d8860fcf340e2385d9cfc940cffa905b937",
+  "whatnotRuntimeSha256": "066e4cf6d2d0811df29784ef1743f7f33f5cdb318228ee8d92cd2492619086d4",
+  "harvesterRuntimeSha256": "7f1f38399407cb3d1e8e82365563f09af9df1c162ca339315bbc8fcd178dc30a",
+  "signature": "W1qT14MwdtnQ8znMH0PpdgmsbIRfVL+fGmg1yJNlYL07acxYUsitLbgwzb5bpKSsxKiQH2N/aap30GeLH1i9Bw=="
 }
