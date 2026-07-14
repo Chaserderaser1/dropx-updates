@@ -1,21 +1,20 @@
 {
-  "version": "1.9.108",
+  "version": "1.9.109",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.108/DropXV1.9.108.zip",
-  "fileName": "DropXV1.9.108.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.109/DropXV1.9.109.zip",
+  "fileName": "DropXV1.9.109.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "5",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
   "harvesterRuntimeVersion": "1",
   "notes": [
-    "DropX 1.9.108 \u2014 launcher update",
-    "Live license-revocation watcher now refreshes its token (mid-session lockout fix)",
-    "Sign-in reliability + clearer HWID/device-lock messaging",
-    "Latest Target/Walmart/Costco/Pokemon Center drop integrations",
+    "DropX 1.9.109 \u2014 launcher update",
+    "New: Check for updates on the login screen + version shown on the gate",
+    "Startup still offers one-click Install & relaunch when an update is live",
     "Existing runtimes unchanged \u2014 Whatnot/Harvester re-download only if outdated"
   ],
-  "sha256": "6f80787353057d4bb2c474f378b59c8c655e29dd44e317c1a2e3490d29dabebd",
+  "sha256": "02e8027f4922195213530e8a3a3a2a401c857b1e890e6eebe4a58c8224877c91",
   "whatnotRuntimeSha256": "7a6930a84f1b8e57298379d858bb83ca10260a96b397a41a5e72371c53392fa7",
   "harvesterRuntimeSha256": "7f1f38399407cb3d1e8e82365563f09af9df1c162ca339315bbc8fcd178dc30a",
-  "signature": "AwI86aJIbCHJUBE8x8mSsaQA4SAUl8+D0Mju5ljmCJHpZGvCBCrAOC6rTU7zBm/i5spZazl/96l0ED997JH2Bw=="
+  "signature": "0sm4uqNmykc5XOwRaAmWvtHwu+Z18SNu3zZmSlkdMnrWWkiVaLgGp5UyNx2mClTjKnSAjUGxx1HW0oaUoO07Bw=="
 }
