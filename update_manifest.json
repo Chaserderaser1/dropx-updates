@@ -1,20 +1,20 @@
 {
-  "version": "1.9.113",
+  "version": "1.9.114",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.113/DropXV1.9.113.zip",
-  "fileName": "DropXV1.9.113.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.114/DropXV1.9.114.zip",
+  "fileName": "DropXV1.9.114.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "5",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
   "harvesterRuntimeVersion": "1",
   "notes": [
-    "DropX 1.9.113",
-    "New Product Search tool (Tools tab): search a product, see its Target TCIN + matched Walmart SKU, add straight to your Target monitor",
-    "Auto-warming headless search engine \u2014 search whenever, no setup; isolated from the live stock monitor",
-    "Launcher-only update; Whatnot/Harvester runtimes unchanged"
+    "DropX 1.9.114",
+    "Fixed: Product Search now starts + shows images in the installed app",
+    "Product Search tool (Tools tab): Target TCIN + matched Walmart SKU, add to monitor",
+    "Launcher-only; Whatnot/Harvester runtimes unchanged"
   ],
-  "sha256": "192a32b1cac6bf9aabd4ed0143ab16b89331633b1905f0cda9d863004e80d3bc",
+  "sha256": "8b6006149e933d620a6837f1e08a3b91b0be98eca99117ccf4414234d0105540",
   "whatnotRuntimeSha256": "415731fec054d8f3901c920f50ce4bf3dd5c50f78731fc56181ea82d524448e9",
   "harvesterRuntimeSha256": "7f1f38399407cb3d1e8e82365563f09af9df1c162ca339315bbc8fcd178dc30a",
-  "signature": "GPkZW/9NCuOr6e2oimhEDNPek0qikEIl7Bk+M8Ln8820gIK9OOt7UL4oAkVf4bg1bdd+Vw/AbqkNdnen06cYDA=="
+  "signature": "7Uj8ZEYhII51pYt6PzNHd0H7MXasA83+G/FK8/I1ICVr5/DH1kcPRFmF6iPH/iDip2JYznkcuMWNgLj9q4OaDw=="
 }
