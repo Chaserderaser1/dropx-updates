@@ -1,22 +1,19 @@
 {
-  "version": "1.9.118",
+  "version": "1.9.121",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.118/DropXV1.9.118.zip",
-  "fileName": "DropXV1.9.118.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.121/DropXV1.9.121.zip",
+  "fileName": "DropXV1.9.121.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "5",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
   "harvesterRuntimeVersion": "1",
   "notes": [
-    "drop: Walmart live queue tracker \u2014 your ticket, admission likelihood and estimated turn time, with an honest progress bar (in the app and in each Walmart queue tab)",
-    "new: Price ceilings \u2014 set a max buy price per item and per category so auto-checkout never overpays",
-    "new: Product search \u2014 find Target and Walmart items by name",
-    "new: Link your Gmail in-app for hands-off Target sign-in",
-    "fix: Target checkout reliability \u2014 sign-in, in-stock buying, and a per-item order cap",
-    "ui: Update notices now show a What's-new card and re-check hourly"
+    "fix: Product Search and the full Target flow now work on every install \u2014 DropX sets up its Target config automatically, no setup, no window",
+    "security: Target data endpoint pinned to Target's own domain, with a graceful offline backoff",
+    "fix: Red-teamed hardening \u2014 two review passes, no critical/high/medium findings"
   ],
-  "sha256": "48200c7a86e2d491812353888648b137883e542cff9c06672bdbe24a5339f281",
+  "sha256": "7dee68abfc3010ed4ec719255df7598a3f9cba94a89bf45cfcf4c7aa5b99581b",
   "whatnotRuntimeSha256": "415731fec054d8f3901c920f50ce4bf3dd5c50f78731fc56181ea82d524448e9",
   "harvesterRuntimeSha256": "7f1f38399407cb3d1e8e82365563f09af9df1c162ca339315bbc8fcd178dc30a",
-  "signature": "xsAjLkYRbmHTiadCC+Ze0OIULZzDM07SDtm9QDhJJAqypiXV2Na8/x2iB3hwPO77P9m5MYCLA2WQwQ3xx9cfBg=="
+  "signature": "kDj9Ayxx/WcRd7XsoIENNUmvqDNWrGc4tXk53X47xMELiLxnVZlJwTR45jt+KUbXDWTz1zOwdODBdyN5yK1nCw=="
 }
