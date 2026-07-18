@@ -1,19 +1,19 @@
 {
-  "version": "1.9.121",
+  "version": "1.9.128",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.128/DropXV1.9.128.zip",
+  "fileName": "DropXV1.9.128.zip",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.121/DropXV1.9.121.zip",
-  "fileName": "DropXV1.9.121.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "5",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
   "harvesterRuntimeVersion": "1",
   "notes": [
-    "fix: Product Search and the full Target flow now work on every install \u2014 DropX sets up its Target config automatically, no setup, no window",
-    "security: Target data endpoint pinned to Target's own domain, with a graceful offline backoff",
-    "fix: Red-teamed hardening \u2014 two review passes, no critical/high/medium findings"
+    "security: Hardened license protection - gated features now require a server-signed key a tampered copy cannot forge",
+    "security: Stronger anti-tamper plus improved anti-sharing detection",
+    "fix: More reliable activation - no false lockouts on slow or briefly-offline connections"
   ],
-  "sha256": "7dee68abfc3010ed4ec719255df7598a3f9cba94a89bf45cfcf4c7aa5b99581b",
+  "sha256": "e38ea00896799ad32a5ad1ffbde8b4cf2dbab27e497a4afe1e22daf8d5ca4816",
   "whatnotRuntimeSha256": "415731fec054d8f3901c920f50ce4bf3dd5c50f78731fc56181ea82d524448e9",
   "harvesterRuntimeSha256": "7f1f38399407cb3d1e8e82365563f09af9df1c162ca339315bbc8fcd178dc30a",
-  "signature": "kDj9Ayxx/WcRd7XsoIENNUmvqDNWrGc4tXk53X47xMELiLxnVZlJwTR45jt+KUbXDWTz1zOwdODBdyN5yK1nCw=="
+  "signature": "JEYF4EhENBsiUyZBPYc/WENSsDPyM9it1ML2SrnJUCfjb5gclqw+rR8EjTW5Xoee3diMYlVVuPlJXrtXZTJYCw=="
 }
