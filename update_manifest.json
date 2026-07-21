@@ -1,13 +1,13 @@
 {
-  "version": "1.9.144",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.144/DropXV1.9.144.zip",
-  "fileName": "DropXV1.9.144.zip",
+  "version": "1.9.145",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.145/DropXV1.9.145.zip",
+  "fileName": "DropXV1.9.145.zip",
   "packageType": "zip",
   "notes": [
-    "fix: Pushover 'Test notification' works again",
-    "fix: Discord token now watches ONLY Walmart / Costco / Pokemon Center - old channels cleared",
-    "new: Drops require a linked Discord token to arm - each card shows linked / not-linked",
-    "security: a drop can't be armed or auto-start without a linked Discord token"
+    "fix: Sign-in and licensing restored - backend moved to a fresh server; installs auto-update to it",
+    "new: Walmart / Costco / Pokemon Center new-item drops route by store - no cross-store misfires",
+    "fix: Target checkout self-heals a lapsed session instead of wedging",
+    "fix: Removed unused Discord alarm settings that faked success"
   ],
   "whatnotRuntimeVersion": "5",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
@@ -15,7 +15,7 @@
   "harvesterRuntimeVersion": "1",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
   "harvesterRuntimeSha256": "7f1f38399407cb3d1e8e82365563f09af9df1c162ca339315bbc8fcd178dc30a",
-  "sha256": "b26c26cd56b44dfbcf2d10d9a43558d887551905d72fc80a395c48712172e4eb",
+  "sha256": "041e2722e465cca36e3fe8270bf0a17c2d0577f8e7b5e97b10d06888648424a8",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "KlhHXz3gXLdWwcgisD3PYVHIbOYyrscj+rcHojATxK8jbR/N+n6IekMTGSOISxbN5ZJucoMfuAT4P8NcJlo9BQ=="
+  "signature": "oZQOGh1j6El6BdEtay/dKYUw4hrCVtuxefx/fX4YN67ohGhrMwzP2T/A1duZ0PEzr2MnfRbioq/a8+PXB6WXAQ=="
 }
