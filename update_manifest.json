@@ -1,13 +1,11 @@
 {
-  "version": "1.9.145",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.145/DropXV1.9.145.zip",
-  "fileName": "DropXV1.9.145.zip",
+  "version": "1.9.146",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.146/DropXV1.9.146.zip",
+  "fileName": "DropXV1.9.146.zip",
   "packageType": "zip",
   "notes": [
-    "fix: Sign-in and licensing restored - backend moved to a fresh server; installs auto-update to it",
-    "new: Walmart / Costco / Pokemon Center new-item drops route by store - no cross-store misfires",
-    "fix: Target checkout self-heals a lapsed session instead of wedging",
-    "fix: Removed unused Discord alarm settings that faked success"
+    "fix: Auto-updater no longer hangs on the old app exit - updates apply reliably now",
+    "fix: Removed leftover Rattle example from the Discord alarm log"
   ],
   "whatnotRuntimeVersion": "5",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
@@ -15,7 +13,7 @@
   "harvesterRuntimeVersion": "1",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
   "harvesterRuntimeSha256": "7f1f38399407cb3d1e8e82365563f09af9df1c162ca339315bbc8fcd178dc30a",
-  "sha256": "041e2722e465cca36e3fe8270bf0a17c2d0577f8e7b5e97b10d06888648424a8",
+  "sha256": "2c7574d971e738211c6dbb5e5262fb4f0cca7e531d22f236a1e45f8dc703b330",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "oZQOGh1j6El6BdEtay/dKYUw4hrCVtuxefx/fX4YN67ohGhrMwzP2T/A1duZ0PEzr2MnfRbioq/a8+PXB6WXAQ=="
+  "signature": "Dw6wf68G5MHg07g/VRLmeI/8h0pGpPt3FO6YslhnhnaxDUchWDHcVp61PhdPKMHoMBGIyl9K96TPzM52iINaDw=="
 }
