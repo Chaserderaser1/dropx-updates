@@ -1,12 +1,14 @@
 {
-  "version": "1.9.129",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.129/DropXV1.9.129.zip",
-  "fileName": "DropXV1.9.129.zip",
+  "version": "1.9.141",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.141/DropXV1.9.141.zip",
+  "fileName": "DropXV1.9.141.zip",
   "packageType": "zip",
   "notes": [
-    "fix: Target sign-in codes now read reliably \u2014 fixes code-in-inbox-but-never-logged-in",
-    "fix: Target checkout self-prepares in the background so you are ready the moment a drop hits",
-    "perf: buy path unchanged and fast \u2014 session is staged ahead of the drop, not at checkout"
+    "drop: Pokemon Center \"Queue Detected\" alerts auto-open the PC site across your main IP + fleet",
+    "new: Walmart/Costco/Pokemon Center drop channels are watched automatically - no manual channel setup",
+    "fix: Store-isolated drop triggers - a Walmart or Costco alert can no longer open Pokemon Center by mistake",
+    "ui: Fixed faded text and off-frame retailer logos on the one-time setup page",
+    "security: Red-team hardening pass on the drop-capture path"
   ],
   "whatnotRuntimeVersion": "5",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
@@ -14,7 +16,7 @@
   "harvesterRuntimeVersion": "1",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
   "harvesterRuntimeSha256": "7f1f38399407cb3d1e8e82365563f09af9df1c162ca339315bbc8fcd178dc30a",
-  "sha256": "230c122147aa5b16cb9ed4a1ee31a93271c0140a9c82f53244f6e6c8fe70c2a2",
+  "sha256": "ebbca1450d292df4c5335105e736acc38bd76bf651423aa64f673af83840138b",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "eYhZO6RAs0hk30XLaXBniA88J+D96yb6wC9Txyp21rHOMNNtoS+9JrLXMSkRMVO1Skzj8p2HZSwrXJxWuZQ5Bw=="
+  "signature": "mk7MYZXO4gx45A43pBY8+fmI6MDUjTMmUbygOwu8cp352pjqv71A4oSAk0968HFPb/dUk5gydduSE9oAt7lLBg=="
 }
