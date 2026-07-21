@@ -1,14 +1,15 @@
 {
-  "version": "1.9.141",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.141/DropXV1.9.141.zip",
-  "fileName": "DropXV1.9.141.zip",
+  "version": "1.9.142",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.142/DropXV1.9.142.zip",
+  "fileName": "DropXV1.9.142.zip",
   "packageType": "zip",
   "notes": [
-    "drop: Pokemon Center \"Queue Detected\" alerts auto-open the PC site across your main IP + fleet",
-    "new: Walmart/Costco/Pokemon Center drop channels are watched automatically - no manual channel setup",
-    "fix: Store-isolated drop triggers - a Walmart or Costco alert can no longer open Pokemon Center by mistake",
-    "ui: Fixed faded text and off-frame retailer logos on the one-time setup page",
-    "security: Red-team hardening pass on the drop-capture path"
+    "fix: Target sign-in works end-to-end - code read from your Gmail, monitor logs in first",
+    "fix: Target checkout restored - retired the obsolete _tgt_token gate that blocked buys",
+    "fix: Stock monitor now starts on every PC (bundled Node runtime module fix)",
+    "fix: Your Gmail credentials now survive app updates",
+    "new: Start Monitor prompts for Gmail; Costco / Pokemon Center drops warn if Discord isn't set",
+    "ui: Monitor uptime no longer resets when switching store tabs"
   ],
   "whatnotRuntimeVersion": "5",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
@@ -16,7 +17,7 @@
   "harvesterRuntimeVersion": "1",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
   "harvesterRuntimeSha256": "7f1f38399407cb3d1e8e82365563f09af9df1c162ca339315bbc8fcd178dc30a",
-  "sha256": "ebbca1450d292df4c5335105e736acc38bd76bf651423aa64f673af83840138b",
+  "sha256": "17f3bd249d3f887ae6611c9083a73047f37c2bc4032cf27e3e3043ff7803a249",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "mk7MYZXO4gx45A43pBY8+fmI6MDUjTMmUbygOwu8cp352pjqv71A4oSAk0968HFPb/dUk5gydduSE9oAt7lLBg=="
+  "signature": "VFipGEcBh2Q/9OWTGqKaUMBlw55tXuATpXnmG0Z0k/iaCAI8zB1AfcxVC++4rwNWrolgcP0bS9v2o2jyiFzlDg=="
 }
