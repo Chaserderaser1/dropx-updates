@@ -4,7 +4,8 @@
   "fileName": "DropXV1.9.147.zip",
   "packageType": "zip",
   "notes": [
-    "fix: Start Monitor no longer hangs on the loading screen - it starts fast and reliably on every PC"
+    "fix: Installing an update no longer hangs or silently does nothing - updates now apply reliably on every PC",
+    "fix: Start Monitor starts fast and reliably on every PC"
   ],
   "whatnotRuntimeVersion": "5",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
@@ -14,5 +15,5 @@
   "harvesterRuntimeSha256": "7f1f38399407cb3d1e8e82365563f09af9df1c162ca339315bbc8fcd178dc30a",
   "sha256": "6976958036e1593be360ecd243360caf4f2ae9ee9a925b65d695077655d56f70",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "LwwF4UasB1xFeh3XaTWiXzzIrqaFkfyQcl7h1iZ2l/6xkyPr2RF5AluabpegS6kiGg9jfLclVy8dVedTk4QpDA=="
+  "signature": "tOZ+WFZ//udqWyAqyU6vJIFoMyiOXuxTnLSUT6XMf15sZICDeIzaBnBV5UCY4kCyDIqveN5JnS5yWUiicA3UCQ=="
 }
