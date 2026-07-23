@@ -1,11 +1,13 @@
 {
-  "version": "1.9.148",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.148/DropXV1.9.148.zip",
-  "fileName": "DropXV1.9.148.zip",
+  "version": "1.9.150",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.150/DropXV1.9.150.zip",
+  "fileName": "DropXV1.9.150.zip",
   "packageType": "zip",
   "notes": [
-    "fix: Your Discord token and other settings now save reliably and stick across a restart (they were silently lost on some PCs). Existing settings carry forward automatically.",
-    "fix: Costco / Pokemon Center drop settings and Target poll/auto-login auto-save on edit; save failures now show instead of failing silently."
+    "fix: Walmart Wednesday drop now fires at the correct 9 PM ET for every timezone \u2014 it no longer mis-times on non-Eastern PCs.",
+    "fix: Target auto-login works on fresh installs \u2014 it reads your saved Gmail correctly and actually sends the sign-in code.",
+    "fix: Stock monitor no longer flickers start/stop on launch and recovers faster from Walmart/Target queue blocks (no more stuck ~18s cycles).",
+    "new: Walmart queue tracker shows your ticket, estimated wait, and a progress bar that fills to admission \u2014 works on current Chrome."
   ],
   "whatnotRuntimeVersion": "5",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
@@ -13,7 +15,7 @@
   "harvesterRuntimeVersion": "1",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
   "harvesterRuntimeSha256": "7f1f38399407cb3d1e8e82365563f09af9df1c162ca339315bbc8fcd178dc30a",
-  "sha256": "277b9d87bae7bd2898d72192c4a2ec260435979679139707059f9df29a5355e4",
+  "sha256": "bab53d6c69a2144abb89e81b871708cc5aea235a6ea28f73cd7f2b2ebdac3c2d",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "Kn5JCnsQ1cWaF/ajxC9yu3CkYwLUiL84Sd+oM4WBJ0iY1cbhoT9taXTye7YK841rWopFxw4mYmuNxBhHSlf7Dg=="
+  "signature": "gOcCkVC7g6PF0wuNKR82RH/tBQ8dsNiq/RiFQdY6i278W1hQ8/3llkvs9WO4r7+ehTDuofAjjoAOFjXaZFlhDQ=="
 }
