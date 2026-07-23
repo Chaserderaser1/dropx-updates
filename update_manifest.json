@@ -1,11 +1,11 @@
 {
-  "version": "1.9.147",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.147/DropXV1.9.147.zip",
-  "fileName": "DropXV1.9.147.zip",
+  "version": "1.9.148",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.148/DropXV1.9.148.zip",
+  "fileName": "DropXV1.9.148.zip",
   "packageType": "zip",
   "notes": [
-    "fix: Installing an update no longer hangs or silently does nothing - updates now apply reliably on every PC",
-    "fix: Start Monitor starts fast and reliably on every PC"
+    "fix: Your Discord token and other settings now save reliably and stick across a restart (they were silently lost on some PCs). Existing settings carry forward automatically.",
+    "fix: Costco / Pokemon Center drop settings and Target poll/auto-login auto-save on edit; save failures now show instead of failing silently."
   ],
   "whatnotRuntimeVersion": "5",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
@@ -13,7 +13,7 @@
   "harvesterRuntimeVersion": "1",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
   "harvesterRuntimeSha256": "7f1f38399407cb3d1e8e82365563f09af9df1c162ca339315bbc8fcd178dc30a",
-  "sha256": "6976958036e1593be360ecd243360caf4f2ae9ee9a925b65d695077655d56f70",
+  "sha256": "277b9d87bae7bd2898d72192c4a2ec260435979679139707059f9df29a5355e4",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "tOZ+WFZ//udqWyAqyU6vJIFoMyiOXuxTnLSUT6XMf15sZICDeIzaBnBV5UCY4kCyDIqveN5JnS5yWUiicA3UCQ=="
+  "signature": "Kn5JCnsQ1cWaF/ajxC9yu3CkYwLUiL84Sd+oM4WBJ0iY1cbhoT9taXTye7YK841rWopFxw4mYmuNxBhHSlf7Dg=="
 }
