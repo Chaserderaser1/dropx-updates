@@ -1,13 +1,11 @@
 {
-  "version": "1.9.150",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.150/DropXV1.9.150.zip",
-  "fileName": "DropXV1.9.150.zip",
+  "version": "1.9.151",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.151/DropXV1.9.151.zip",
+  "fileName": "DropXV1.9.151.zip",
   "packageType": "zip",
   "notes": [
-    "fix: Walmart Wednesday drop now fires at the correct 9 PM ET for every timezone \u2014 it no longer mis-times on non-Eastern PCs.",
-    "fix: Target auto-login works on fresh installs \u2014 it reads your saved Gmail correctly and actually sends the sign-in code.",
-    "fix: Stock monitor no longer flickers start/stop on launch and recovers faster from Walmart/Target queue blocks (no more stuck ~18s cycles).",
-    "new: Walmart queue tracker shows your ticket, estimated wait, and a progress bar that fills to admission \u2014 works on current Chrome."
+    "fix: Updates now apply reliably even while the Whatnot ADB tool is running",
+    "new: Detailed Target sign-in diagnostics to pinpoint auto-login issues"
   ],
   "whatnotRuntimeVersion": "5",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
@@ -15,7 +13,7 @@
   "harvesterRuntimeVersion": "1",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
   "harvesterRuntimeSha256": "7f1f38399407cb3d1e8e82365563f09af9df1c162ca339315bbc8fcd178dc30a",
-  "sha256": "bab53d6c69a2144abb89e81b871708cc5aea235a6ea28f73cd7f2b2ebdac3c2d",
+  "sha256": "d499cf1a217ff6c3b150b18c5174273a8db1fd2fbe97d478e3aefe6cec54b046",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "gOcCkVC7g6PF0wuNKR82RH/tBQ8dsNiq/RiFQdY6i278W1hQ8/3llkvs9WO4r7+ehTDuofAjjoAOFjXaZFlhDQ=="
+  "signature": "LjsqFKLBiaJhdwjIG4vWR90geCOCU8XQpVwkvlWcodH91Yw3doCcDBwM1MtlKKJ6c6d79ZEwSYvmnffQrIIGAA=="
 }
