@@ -1,19 +1,23 @@
 {
-  "version": "1.9.151",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.151/DropXV1.9.151.zip",
-  "fileName": "DropXV1.9.151.zip",
+  "version": "1.9.168",
   "packageType": "zip",
-  "notes": [
-    "fix: Updates now apply reliably even while the Whatnot ADB tool is running",
-    "new: Detailed Target sign-in diagnostics to pinpoint auto-login issues"
-  ],
-  "whatnotRuntimeVersion": "5",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.168/DropXV1.9.168.zip",
+  "fileName": "DropXV1.9.168.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
-  "whatnotRuntimeSha256": "415731fec054d8f3901c920f50ce4bf3dd5c50f78731fc56181ea82d524448e9",
-  "harvesterRuntimeVersion": "1",
+  "whatnotRuntimeVersion": "6",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
-  "harvesterRuntimeSha256": "7f1f38399407cb3d1e8e82365563f09af9df1c162ca339315bbc8fcd178dc30a",
-  "sha256": "d499cf1a217ff6c3b150b18c5174273a8db1fd2fbe97d478e3aefe6cec54b046",
+  "harvesterRuntimeVersion": "2",
+  "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
+  "dropxRuntimeVersion": "1",
+  "notes": [
+    "DropX 1.9.168",
+    "Whatnot runtime v6 with branded Whatnot exe icons",
+    "Public configs exclude personal email and Gmail credentials",
+    "Whatnot tab: Launch, overlay, A17 provision, device check, and bundled adb"
+  ],
+  "sha256": "8633fca176374bc3f825db89b0358f2f0294e98f2fd1e2aff40fa6f71e2d6993",
+  "whatnotRuntimeSha256": "30f26c1e253ed56ccf5c1476f627daddd07150cafee236d482bf66c8efcbe3a9",
+  "harvesterRuntimeSha256": "0210c20b29c3921dd60b3d2cc04b1220f2d2207eb752f109a0b0633c634e4dbb",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "LjsqFKLBiaJhdwjIG4vWR90geCOCU8XQpVwkvlWcodH91Yw3doCcDBwM1MtlKKJ6c6d79ZEwSYvmnffQrIIGAA=="
+  "signature": "s6kJFlLpv9jlUiAKJys100vPO9csGB3K8nc0d3uTBqeZDgwFxc6JzTXHJTKZ/ElG6YzwwBZws6Xug+2YEBljCw=="
 }
