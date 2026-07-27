@@ -1,8 +1,8 @@
 {
-  "version": "1.9.168",
+  "version": "1.9.169",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.168/DropXV1.9.168.zip",
-  "fileName": "DropXV1.9.168.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.169/DropXV1.9.169.zip",
+  "fileName": "DropXV1.9.169.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "6",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -10,14 +10,14 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "1",
   "notes": [
-    "DropX 1.9.168",
+    "DropX 1.9.169",
     "Whatnot runtime v6 with branded Whatnot exe icons",
     "Public configs exclude personal email and Gmail credentials",
     "Whatnot tab: Launch, overlay, A17 provision, device check, and bundled adb"
   ],
-  "sha256": "8633fca176374bc3f825db89b0358f2f0294e98f2fd1e2aff40fa6f71e2d6993",
-  "whatnotRuntimeSha256": "30f26c1e253ed56ccf5c1476f627daddd07150cafee236d482bf66c8efcbe3a9",
-  "harvesterRuntimeSha256": "0210c20b29c3921dd60b3d2cc04b1220f2d2207eb752f109a0b0633c634e4dbb",
+  "sha256": "2fa9d8894dc281e643ebe5d87139579c2ac34164fcdb5d45b8670ed3c7d30708",
+  "whatnotRuntimeSha256": "a48864b3d544452bf8e89eb1a8d6641f3d86d81b1015b695ee924a8e661538f9",
+  "harvesterRuntimeSha256": "294d3b0fa6e0cd789ab83496f05a95f35f2c2e0ee2810eabba12a54234ec0bda",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "s6kJFlLpv9jlUiAKJys100vPO9csGB3K8nc0d3uTBqeZDgwFxc6JzTXHJTKZ/ElG6YzwwBZws6Xug+2YEBljCw=="
+  "signature": "KxGBPv8TMfOkkuNVZ9budB8dlyackLtWbwWckIUZtI1XLBq6O0+rxhMP0KBzDDnsMyvsyNjZIlqXE+66M64iCg=="
 }
