@@ -2,3 +2,4 @@
 DropXV*.zip filter=lfs diff=lfs merge=lfs -text
 WhatnotRuntime.zip filter=lfs diff=lfs merge=lfs -text
 HarvesterRuntime.zip filter=lfs diff=lfs merge=lfs -text
+DropXRuntime.zip filter=lfs diff=lfs merge=lfs -text
