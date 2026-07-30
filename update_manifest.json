@@ -1,23 +1,24 @@
 {
-  "version": "1.9.170",
+  "version": "1.9.189",
+  "fileName": "DropXV1.9.189.zip",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.170/DropXV1.9.170.zip",
-  "fileName": "DropXV1.9.170.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.189/DropXV1.9.189.zip",
+  "sha256": "8857914dfa63cf0f821e0d421c723d5044459e28d4e3793e69b2b8cd032c0915",
+  "whatnotRuntimeVersion": "7",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
-  "whatnotRuntimeVersion": "6",
-  "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
+  "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
   "harvesterRuntimeVersion": "2",
-  "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
-  "dropxRuntimeVersion": "1",
-  "notes": [
-    "DropX 1.9.170",
-    "Whatnot runtime v6 with branded Whatnot exe icons",
-    "Public configs exclude personal email and Gmail credentials",
-    "Whatnot tab: Launch, overlay, A17 provision, device check, and bundled adb"
-  ],
-  "sha256": "1c46ce87f1021c0bcfd851a91e2b331b096c73c654ddd621d92fd19b516cc59e",
-  "whatnotRuntimeSha256": "497ae4bf6626fcaac20f249e8047d53231bedce065eb60d3ff9a35025046607f",
+  "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
   "harvesterRuntimeSha256": "db004069e9443fb9693248353cfbee7f16db60b3aca752eb61515a0cd401e17c",
+  "dropxRuntimeVersion": "1",
+  "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "EywpF+xmGhzXvOXt7luqY01R7DR190JF6nBXU2LabdwSEiw7NiQB10xzkCzCvb19qGKuurJfWugl0YW2mCj1DA=="
+  "notes": [
+    "new: Live Whatnot activity log window for the whole emulator fleet",
+    "fix: Faster, more reliable giveaway entry \u2014 fixed a mis-tap that could hit the Terms & Conditions link",
+    "perf: Whatnot runtime v7 brings the faster giveaway entry to physical-device bots too",
+    "ui: Cleaner, state-synced per-tool action buttons",
+    "fix: Emulator install and stability fixes"
+  ],
+  "signature": "c0TDYOU5DxaE7O5V/acahn+KIftrPZEg+xw97J+g4PMyAI3Khe3wL4XNUIhj0RqK14gxPr7Cr29cn7slJ7X3Bw=="
 }
