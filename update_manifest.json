@@ -1,9 +1,8 @@
 {
-  "version": "1.9.189",
-  "fileName": "DropXV1.9.189.zip",
+  "version": "1.9.190",
+  "fileName": "DropXV1.9.190.zip",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.189/DropXV1.9.189.zip",
-  "sha256": "8857914dfa63cf0f821e0d421c723d5044459e28d4e3793e69b2b8cd032c0915",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.190/DropXV1.9.190.zip",
   "whatnotRuntimeVersion": "7",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
@@ -14,11 +13,10 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
   "notes": [
-    "new: Live Whatnot activity log window for the whole emulator fleet",
-    "fix: Faster, more reliable giveaway entry \u2014 fixed a mis-tap that could hit the Terms & Conditions link",
-    "perf: Whatnot runtime v7 brings the faster giveaway entry to physical-device bots too",
-    "ui: Cleaner, state-synced per-tool action buttons",
-    "fix: Emulator install and stability fixes"
+    "fix: Updating now works again - the previous update pointed at a release that was never published",
+    "fix: Restored the bundled Node runtime (Target stock monitor, checkout and product search)",
+    "fix: DropX now starts correctly on PCs without the .NET developer tools installed"
   ],
-  "signature": "c0TDYOU5DxaE7O5V/acahn+KIftrPZEg+xw97J+g4PMyAI3Khe3wL4XNUIhj0RqK14gxPr7Cr29cn7slJ7X3Bw=="
+  "sha256": "3a7ba9c2838d09972522b5b34e54fac60b3ed91de5a91f54cbfa2e12f950e9ea",
+  "signature": "uldzQL0CmZILFLRXG3vQGqaAYMi1ZQor/wNq2mkpTLmqFtEq4pJIaXeRFytstYQNRK5crYenzo2xWZwmn/FzCw=="
 }
