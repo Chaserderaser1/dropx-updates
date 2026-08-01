@@ -1,8 +1,8 @@
 {
-  "version": "1.9.190",
-  "fileName": "DropXV1.9.190.zip",
+  "version": "1.9.191",
+  "fileName": "DropXV1.9.191.zip",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.190/DropXV1.9.190.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.191/DropXV1.9.191.zip",
   "whatnotRuntimeVersion": "7",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
@@ -13,10 +13,14 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
   "notes": [
-    "fix: Updating now works again - the previous update pointed at a release that was never published",
-    "fix: Restored the bundled Node runtime (Target stock monitor, checkout and product search)",
-    "fix: DropX now starts correctly on PCs without the .NET developer tools installed"
+    "fix: Review mode works again - it could never complete on the default settings",
+    "fix: Auto-buy no longer stops early when Target answers with an anti-bot refusal",
+    "fix: Cart quantity is verified before checkout even when a cart read is rejected",
+    "fix: Never place a second order for the same add when a response is lost",
+    "fix: Target features could not start at all in the previous build (missing Node runtime)",
+    "security: payment responses can no longer be written to the local diagnostic log",
+    "security: saved Target session is always encrypted at rest"
   ],
-  "sha256": "b54474e7112c06368404eb3a4542aa410bfaf6b65f04aaf7f353a7d9473768a7",
-  "signature": "bx3mIf7aS+TzoqSGGqzILuzsE3q7jvnDxdoZRZCeYCqcIKVa+esTQYv1qGxZo4k8KzgpROTV0I6boiJQSezuDQ=="
+  "sha256": "7da8ecb0c2d81509337d8689fe8557fb770ae6237c432a6ca49280671ebb543b",
+  "signature": "vzJSDxn3Ol1ls08Bwps2PekSz0vH0t9FtqzQKnEmqjmc+d150wlOGuC8pdHcJuEOW7UHkSjemYwCev56rdMyBA=="
 }
