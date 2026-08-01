@@ -17,6 +17,6 @@
     "fix: Restored the bundled Node runtime (Target stock monitor, checkout and product search)",
     "fix: DropX now starts correctly on PCs without the .NET developer tools installed"
   ],
-  "sha256": "3a7ba9c2838d09972522b5b34e54fac60b3ed91de5a91f54cbfa2e12f950e9ea",
-  "signature": "uldzQL0CmZILFLRXG3vQGqaAYMi1ZQor/wNq2mkpTLmqFtEq4pJIaXeRFytstYQNRK5crYenzo2xWZwmn/FzCw=="
+  "sha256": "b54474e7112c06368404eb3a4542aa410bfaf6b65f04aaf7f353a7d9473768a7",
+  "signature": "bx3mIf7aS+TzoqSGGqzILuzsE3q7jvnDxdoZRZCeYCqcIKVa+esTQYv1qGxZo4k8KzgpROTV0I6boiJQSezuDQ=="
 }
