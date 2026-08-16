@@ -1,8 +1,8 @@
 {
-  "version": "1.9.220",
+  "version": "1.9.221",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.220/DropXV1.9.220.zip",
-  "fileName": "DropXV1.9.220.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.221/DropXV1.9.221.zip",
+  "fileName": "DropXV1.9.221.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "7",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -10,6 +10,7 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "1",
   "notes": [
+    "fix: DropX could not start for some fresh downloads - Windows was blocking the files (Mark-of-the-Web); DropX now unblocks its own files automatically",
     "new: Target auto-buy runs end to end - stock watch, add to cart, and checkout without a browser window",
     "new: Per-item maximum buy price so auto-buy never overpays on a drop",
     "perf: Target add-to-cart and pricing are off the critical path - the buy fires sooner",
@@ -24,9 +25,9 @@
     "new: Emulators self-check that video stays blocked and repair it automatically",
     "new: Per-emulator health logs so a problem on your PC can be diagnosed from the log alone"
   ],
-  "sha256": "f61129c78858c8af6b739076895c25f1182671107f965ab6492a48e89ccb8f99",
+  "sha256": "d9744660f15e4291ab47c7f2ed95c812c20e7f921291a929429c4fed723e85a6",
   "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
   "harvesterRuntimeSha256": "db004069e9443fb9693248353cfbee7f16db60b3aca752eb61515a0cd401e17c",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "/n7lwANPVGOJ9uy+OseVocBu/7un7zT0uosawwB5R+Tj1g8Xq2sLLf7zWCuRlvEy3U6hyWE59/v5i+/IhIs6Aw=="
+  "signature": "NVt1ZOWw/RLaWwi7YOUmCcUSfgBY1kqBiyr0ePYwy02VDEpaFzymzKCGy74cduW/Ly919abraYouvG11TuI2AA=="
 }
