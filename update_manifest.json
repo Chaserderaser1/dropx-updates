@@ -1,8 +1,8 @@
 {
-  "version": "1.9.221",
+  "version": "1.9.223",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.221/DropXV1.9.221.zip",
-  "fileName": "DropXV1.9.221.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.223/DropXV1.9.223.zip",
+  "fileName": "DropXV1.9.223.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "7",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -27,9 +27,9 @@
     "new: Target auto-buy runs end to end - stock watch, add to cart, and checkout without a browser window",
     "new: Per-item maximum buy price so auto-buy never overpays on a drop"
   ],
-  "sha256": "d9744660f15e4291ab47c7f2ed95c812c20e7f921291a929429c4fed723e85a6",
+  "sha256": "a98fe19e840a5218bf7b262e405a508caef973e69ae812a2affa7bcf4ce2af4a",
   "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
   "harvesterRuntimeSha256": "db004069e9443fb9693248353cfbee7f16db60b3aca752eb61515a0cd401e17c",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "55agN5EF97EPerh/zGF7WA4VryDykRN8IawZiZCXdo3GgIzeCpu8afMfKmlY1tJ57a0sppGnXhvGUcMZLMv9CQ=="
+  "signature": "b3WFwsA/ZLMUw1yKj2jaBJBNE0OZm5oJt1jz35+4bwxM7EgNiuV+Y5Kcaz19aDtThwMaJXtow+XT9QHbzb3LBw=="
 }
