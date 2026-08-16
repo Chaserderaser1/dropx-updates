@@ -1,8 +1,8 @@
 {
-  "version": "1.9.221",
+  "version": "1.9.222",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.221/DropXV1.9.221.zip",
-  "fileName": "DropXV1.9.221.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.222/DropXV1.9.222.zip",
+  "fileName": "DropXV1.9.222.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "7",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -10,24 +10,26 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "1",
   "notes": [
-    "fix: DropX could not start for some fresh downloads - Windows was blocking the files (Mark-of-the-Web); DropX now unblocks its own files automatically",
-    "new: Target auto-buy runs end to end - stock watch, add to cart, and checkout without a browser window",
-    "new: Per-item maximum buy price so auto-buy never overpays on a drop",
-    "perf: Target add-to-cart and pricing are off the critical path - the buy fires sooner",
-    "fix: Target keeps firing through anti-bot refusals instead of giving up on the drop",
-    "fix: Target sign-in recovers on its own instead of stalling on a code loop",
+    "fix: Emulator setup could get stuck half-installed with no way to retry - there are now Repair and Clear buttons, and DropX detects an unfinished device image",
+    "new: Repair setup - re-runs the device setup and fixes only what is missing",
+    "new: Clear install - delete the emulators and start fresh (keeps the large one-time download)",
+    "fix: DropX now checks your PC can run an emulator BEFORE the 1.5GB download, and tells you exactly what to change",
+    "fix: A device that never finished setup no longer launches unspoofed - it stops and tells you to repair",
+    "perf: A device with no root no longer spends 20+ minutes retrying before giving up",
+    "fix: DropX could not start for some fresh downloads - Windows was blocking the files; DropX now unblocks its own files",
     "new: Whatnot emulator farm - run bot instances on your PC with no phone required",
     "perf: Emulators use far less CPU - video is blocked on both of Whatnot's video systems",
-    "perf: Emulator memory retuned - fixes the thrashing that made the farm run hot",
     "fix: Emulator no longer switches to the stream it is already watching",
     "fix: Streamer rotation keeps your top streamer in the pool instead of dropping it",
     "fix: A streamer off cooldown gets a full set of chances, and a stream that comes back live rejoins right away",
     "new: Emulators self-check that video stays blocked and repair it automatically",
-    "new: Per-emulator health logs so a problem on your PC can be diagnosed from the log alone"
+    "new: Per-emulator health logs so a problem on your PC can be diagnosed from the log alone",
+    "new: Target auto-buy runs end to end - stock watch, add to cart, and checkout without a browser window",
+    "new: Per-item maximum buy price so auto-buy never overpays on a drop"
   ],
-  "sha256": "d9744660f15e4291ab47c7f2ed95c812c20e7f921291a929429c4fed723e85a6",
+  "sha256": "1cbd4a999dde9fe6e0ddc1760665216114bd9fbd610c462f1019e17af8175d6a",
   "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
   "harvesterRuntimeSha256": "db004069e9443fb9693248353cfbee7f16db60b3aca752eb61515a0cd401e17c",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "NVt1ZOWw/RLaWwi7YOUmCcUSfgBY1kqBiyr0ePYwy02VDEpaFzymzKCGy74cduW/Ly919abraYouvG11TuI2AA=="
+  "signature": "OE6CPU5gcdt4iZtuZAUqiTKkkmse5d5FJD4Y1kVSDaMQA4cU4Yzw7AmTB75v33zrms1EiNKde4yDKyEiX1AIDA=="
 }
