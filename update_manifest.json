@@ -1,7 +1,7 @@
 {
-  "version": "1.9.227",
-  "fileName": "DropXV1.9.227.zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.227/DropXV1.9.227.zip",
+  "version": "1.9.228",
+  "fileName": "DropXV1.9.228.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.228/DropXV1.9.228.zip",
   "packageType": "zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "7",
@@ -10,11 +10,11 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "1",
   "notes": [
-    "fix: Emulator root setup waits long enough for the root service on slower PCs - it was giving up early and using every retry before the permission step"
+    "fix: Repair checks a working emulator and leaves it alone instead of rebuilding it - and a failed setup no longer leaves the device marked ready"
   ],
-  "sha256": "8aeb6e41d6e7afa79b92f8f8d8977a4f7b51cf2956a01b03cc06f3ba4818a776",
+  "sha256": "4a59f5748f48ce66461def1fe283570e996393fd0bf81de4b0655cdea4923969",
   "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
   "harvesterRuntimeSha256": "db004069e9443fb9693248353cfbee7f16db60b3aca752eb61515a0cd401e17c",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "LKc+Wct5oy0wh4VboxjAnE+sFaYbujeqMDbs+oYTkYxcTDPGJ0GkYyZzvlgincreVVsyIyAfPSFDlaKh2+j+Cw=="
+  "signature": "YJY5y1VJ49BK9NAfSmje4en5AwaVYnGdv3LdJDWjptuzGShE+xjEKygpsf0G5HilFoy2Y9T7kjXia6OzP0aQCw=="
 }
