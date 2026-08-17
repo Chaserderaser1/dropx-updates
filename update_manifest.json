@@ -1,8 +1,8 @@
 {
-  "version": "1.9.223",
+  "version": "1.9.224",
+  "fileName": "DropXV1.9.224.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.224/DropXV1.9.224.zip",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.223/DropXV1.9.223.zip",
-  "fileName": "DropXV1.9.223.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "7",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -10,26 +10,12 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "1",
   "notes": [
-    "fix: Emulator setup could get stuck half-installed with no way to retry - there are now Repair and Clear buttons, and DropX detects an unfinished device image",
-    "new: Repair setup - re-runs the device setup and fixes only what is missing",
-    "new: Clear install - delete the emulators and start fresh (keeps the large one-time download)",
-    "fix: DropX now checks your PC can run an emulator BEFORE the 1.5GB download, and tells you exactly what to change",
-    "fix: A device that never finished setup no longer launches unspoofed - it stops and tells you to repair",
-    "perf: A device with no root no longer spends 20+ minutes retrying before giving up",
-    "fix: DropX could not start for some fresh downloads - Windows was blocking the files; DropX now unblocks its own files",
-    "new: Whatnot emulator farm - run bot instances on your PC with no phone required",
-    "perf: Emulators use far less CPU - video is blocked on both of Whatnot's video systems",
-    "fix: Emulator no longer switches to the stream it is already watching",
-    "fix: Streamer rotation keeps your top streamer in the pool instead of dropping it",
-    "fix: A streamer off cooldown gets a full set of chances, and a stream that comes back live rejoins right away",
-    "new: Emulators self-check that video stays blocked and repair it automatically",
-    "new: Per-emulator health logs so a problem on your PC can be diagnosed from the log alone",
-    "new: Target auto-buy runs end to end - stock watch, add to cart, and checkout without a browser window",
-    "new: Per-item maximum buy price so auto-buy never overpays on a drop"
+    "fix: Emulator setup could get permanently stuck - retrying now actually starts the device fresh",
+    "fix: Setup failures now name the step that failed instead of asking you to tap a prompt that never appears"
   ],
-  "sha256": "a98fe19e840a5218bf7b262e405a508caef973e69ae812a2affa7bcf4ce2af4a",
+  "sha256": "439c291a49325fc95edd1134987227bb3d3d6a62297433700a5543fa533dbe6c",
   "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
   "harvesterRuntimeSha256": "db004069e9443fb9693248353cfbee7f16db60b3aca752eb61515a0cd401e17c",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "b3WFwsA/ZLMUw1yKj2jaBJBNE0OZm5oJt1jz35+4bwxM7EgNiuV+Y5Kcaz19aDtThwMaJXtow+XT9QHbzb3LBw=="
+  "signature": "ENIG6tIupzNQ5Wg69+SxAtz4T014E1NhADHbsSwXsAjzJfdX7DmqrALPUtDM5YTqLIZ0wRVumstHlMVjt0QHBg=="
 }
