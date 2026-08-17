@@ -1,7 +1,7 @@
 {
-  "version": "1.9.228",
-  "fileName": "DropXV1.9.228.zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.228/DropXV1.9.228.zip",
+  "version": "1.9.229",
+  "fileName": "DropXV1.9.229.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.229/DropXV1.9.229.zip",
   "packageType": "zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "7",
@@ -10,11 +10,12 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "1",
   "notes": [
-    "fix: Repair checks a working emulator and leaves it alone instead of rebuilding it - and a failed setup no longer leaves the device marked ready"
+    "fix: Install & relaunch could leave a blank window and never apply the update - it now always finishes closing",
+    "fix: Emulator setup retries the text-recognition download instead of failing the whole install"
   ],
-  "sha256": "4a59f5748f48ce66461def1fe283570e996393fd0bf81de4b0655cdea4923969",
+  "sha256": "cc13cf2a78453d2ecfcbb76d843fd4caa0ada7ac9152f2b5c5dbc8ba1ed914cb",
   "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
   "harvesterRuntimeSha256": "db004069e9443fb9693248353cfbee7f16db60b3aca752eb61515a0cd401e17c",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "YJY5y1VJ49BK9NAfSmje4en5AwaVYnGdv3LdJDWjptuzGShE+xjEKygpsf0G5HilFoy2Y9T7kjXia6OzP0aQCw=="
+  "signature": "qlNNUsM/O4PnkJZVjaWWEk7dymHPPL8x39VgFyj1E6tQoaE+O1J/ONrQ9A7FD3ZmSwwNS4DAaPrLtCP8C2KwBg=="
 }
