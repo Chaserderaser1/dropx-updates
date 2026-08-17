@@ -1,7 +1,7 @@
 {
-  "version": "1.9.232",
-  "fileName": "DropXV1.9.232.zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.232/DropXV1.9.232.zip",
+  "version": "1.9.233",
+  "fileName": "DropXV1.9.233.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.233/DropXV1.9.233.zip",
   "packageType": "zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "7",
@@ -10,12 +10,12 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "1",
   "notes": [
-    "fix: Clear install now also removes leftover devices that the emulator can no longer see",
-    "fix: Devices left behind by an interrupted setup no longer survive a clear"
+    "fix: Emulator setup recovers from a bad leftover app record instead of retrying five times and giving up",
+    "fix: The check for that leftover record now actually detects it"
   ],
-  "sha256": "507c54c5a7a922f92e04a51ebc3e1138d22b707d0a87262f257f65a507997e79",
+  "sha256": "2db95bed1f34eaa13634101cb2d658c272d26831b2bc2480ad7e6f86542fab86",
   "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
   "harvesterRuntimeSha256": "db004069e9443fb9693248353cfbee7f16db60b3aca752eb61515a0cd401e17c",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "cpL6mx0eiyewiuQMn7g3QJoYLCZXzIpftc6drMk/wtRFTY5w4R9nbvc5tWCX/WOChMsAWdFf3SgPAlF/fvXFCQ=="
+  "signature": "O2RSGR5hgfhhD2T3dTXCehtWZ4im4ox3OQFaZzVpbmgS1IVEJq7z2QhiyQXZVR+kxkxt93wp53tKaAOwg84LAw=="
 }
