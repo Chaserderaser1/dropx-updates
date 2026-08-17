@@ -1,7 +1,7 @@
 {
-  "version": "1.9.234",
-  "fileName": "DropXV1.9.234.zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.234/DropXV1.9.234.zip",
+  "version": "1.9.235",
+  "fileName": "DropXV1.9.235.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.235/DropXV1.9.235.zip",
   "packageType": "zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "7",
@@ -10,13 +10,11 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "1",
   "notes": [
-    "fix: Enabling root no longer overloads the device while waiting for the permission prompt, which could freeze it",
-    "fix: A frozen device is restarted straight away instead of being retried for 13 minutes",
-    "fix: After clearing a bad device record, setup lets the device finish starting before enabling root"
+    "fix: Clear install now refuses while an emulator is running, instead of deleting the base device image out from under it"
   ],
-  "sha256": "61c77e3b90e0c62e5d627fd269eaab20f12df49be774830517c612da6c639fe8",
+  "sha256": "a46b2765ad8df0981913d0f653684c3933df3dca5bb54ac521e56e469fb329c8",
   "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
   "harvesterRuntimeSha256": "db004069e9443fb9693248353cfbee7f16db60b3aca752eb61515a0cd401e17c",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "Aual/7hyyAg8sx+G31jSg5AsOOpDGCU51XOE0bzDMqc6RAJQvc6H5jX+HdGVar7so5/OBIgwAWI7ZcOaTeMxAQ=="
+  "signature": "sPmx+xXuXrH9DW0T4V7ZHpNrnP1jPtmcoEzISnJ9VgvHiSlronPnzmr3bXIvbNoOVAlRG7aKNFGRZjIlr2lvAA=="
 }
