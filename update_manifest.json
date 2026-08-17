@@ -1,7 +1,7 @@
 {
-  "version": "1.9.224",
-  "fileName": "DropXV1.9.224.zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.224/DropXV1.9.224.zip",
+  "version": "1.9.225",
+  "fileName": "DropXV1.9.225.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.225/DropXV1.9.225.zip",
   "packageType": "zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "7",
@@ -10,12 +10,12 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "1",
   "notes": [
-    "fix: Emulator setup could get permanently stuck - retrying now actually starts the device fresh",
-    "fix: Setup failures now name the step that failed instead of asking you to tap a prompt that never appears"
+    "fix: Emulator root setup now clears leftover installer files that made it fail on every attempt",
+    "fix: DropX comes to the front after an update instead of opening behind other windows"
   ],
-  "sha256": "439c291a49325fc95edd1134987227bb3d3d6a62297433700a5543fa533dbe6c",
+  "sha256": "c8b1f22b0b51e5909629149f27e3747b307a9ab169fb3a4f761abdad64155e42",
   "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
   "harvesterRuntimeSha256": "db004069e9443fb9693248353cfbee7f16db60b3aca752eb61515a0cd401e17c",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "ENIG6tIupzNQ5Wg69+SxAtz4T014E1NhADHbsSwXsAjzJfdX7DmqrALPUtDM5YTqLIZ0wRVumstHlMVjt0QHBg=="
+  "signature": "hilQIliivBf6CW5YHE6rnXjETnE+gjyZYKUBekRSNA2K6AiW2Gh+miBDBCkvtVO/t5zPufh1nJg/BvaMI7PGCA=="
 }
