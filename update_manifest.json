@@ -1,7 +1,7 @@
 {
-  "version": "1.9.229",
-  "fileName": "DropXV1.9.229.zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.229/DropXV1.9.229.zip",
+  "version": "1.9.230",
+  "fileName": "DropXV1.9.230.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.230/DropXV1.9.230.zip",
   "packageType": "zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "7",
@@ -10,12 +10,12 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "1",
   "notes": [
-    "fix: Install & relaunch could leave a blank window and never apply the update - it now always finishes closing",
-    "fix: Emulator setup retries the text-recognition download instead of failing the whole install"
+    "fix: An emulator left half-deleted by Clear install is rebuilt automatically instead of failing to boot on every graphics mode",
+    "fix: Clear install now says when a device could not be fully removed"
   ],
-  "sha256": "cc13cf2a78453d2ecfcbb76d843fd4caa0ada7ac9152f2b5c5dbc8ba1ed914cb",
+  "sha256": "b7dfca236f0569d3ca53b5237c72b9f399afe7731b99379e37a9fabb5f99b053",
   "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
   "harvesterRuntimeSha256": "db004069e9443fb9693248353cfbee7f16db60b3aca752eb61515a0cd401e17c",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "qlNNUsM/O4PnkJZVjaWWEk7dymHPPL8x39VgFyj1E6tQoaE+O1J/ONrQ9A7FD3ZmSwwNS4DAaPrLtCP8C2KwBg=="
+  "signature": "l0NVV+Qb3VrgOPWz5mwwMThCRGsZiWS/rmpF8LIR7euZoj51O+Ldbtk5/STa0Mg9dGHNRXwdhO3PmmF+2/7DBA=="
 }
