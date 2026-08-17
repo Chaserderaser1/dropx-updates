@@ -1,7 +1,7 @@
 {
-  "version": "1.9.230",
-  "fileName": "DropXV1.9.230.zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.230/DropXV1.9.230.zip",
+  "version": "1.9.231",
+  "fileName": "DropXV1.9.231.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.231/DropXV1.9.231.zip",
   "packageType": "zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "7",
@@ -10,12 +10,13 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "1",
   "notes": [
-    "fix: An emulator left half-deleted by Clear install is rebuilt automatically instead of failing to boot on every graphics mode",
-    "fix: Clear install now says when a device could not be fully removed"
+    "fix: Clearing or rebuilding a device now really deletes it \u2014 files the emulator marks read-only no longer make the delete quietly do nothing",
+    "fix: Clear install only reports a device as removed once it is actually gone",
+    "fix: A device that cannot be removed says so, instead of failing later with a confusing file-already-exists error"
   ],
-  "sha256": "b7dfca236f0569d3ca53b5237c72b9f399afe7731b99379e37a9fabb5f99b053",
+  "sha256": "a3cf8ad96a8f6b6390f24d4c82f4a2177e69ba31744dce21f8dc6a6c1af26bc4",
   "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
   "harvesterRuntimeSha256": "db004069e9443fb9693248353cfbee7f16db60b3aca752eb61515a0cd401e17c",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "l0NVV+Qb3VrgOPWz5mwwMThCRGsZiWS/rmpF8LIR7euZoj51O+Ldbtk5/STa0Mg9dGHNRXwdhO3PmmF+2/7DBA=="
+  "signature": "OhQZq2qW9MPlQ9APaj6WM/MZMLgrtmD3eVVaQMxxjkU93Ew/UVDKXKFU/SD6BgBky/mXBYz5gWGjvp9sqJZqAw=="
 }
