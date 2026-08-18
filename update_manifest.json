@@ -1,7 +1,7 @@
 {
-  "version": "1.9.238",
-  "fileName": "DropXV1.9.238.zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.238/DropXV1.9.238.zip",
+  "version": "1.9.239",
+  "fileName": "DropXV1.9.239.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.239/DropXV1.9.239.zip",
   "packageType": "zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "7",
@@ -10,13 +10,13 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "1",
   "notes": [
-    "More reliable one-time emulator setup on slower or busy PCs: the root step now waits out Android \u201cisn\u2019t responding\u201d prompts instead of restarting, uses more CPU cores on capable machines, and allows longer for the first boot.",
-    "Setup now records exactly what the device was doing if it stalls, for faster support.",
-    "Fixes a brief command-window flash while the Whatnot emulator bot was running."
+    "More reliable one-time emulator setup: if the Android emulator still can't start on your PC, setup now records exactly why (virtualization state, free disk, memory) so it can be fixed fast.",
+    "Removed the brief command-window flashes that could appear while the Whatnot emulator bot ran.",
+    "Stability and diagnostics improvements."
   ],
-  "sha256": "1d7917405ce736dbd7c0349acab94effd58f947d617e300dcf5a192d968e3da1",
+  "sha256": "398c8207402849dc8ecdb1ce76e0aff3491fdb76860a36b090df87e482f55a1f",
   "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
   "harvesterRuntimeSha256": "db004069e9443fb9693248353cfbee7f16db60b3aca752eb61515a0cd401e17c",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "h5VHFHUUmv8ZE8dfe5KgUrYrD0+0RPhOKeEuvFfoLRcYBzmH5gMHADU6BkP3/IyI0QGa36t/KAyQgV7dAaDxDA=="
+  "signature": "LFYl7uOQjntU0Hlq+duR4zrC99Se0VSMvqnpoKmR/IS7s5HOW82XIjv7kLQdjFXj7+xLNyGXWBz9JNh7Sj8dAw=="
 }
