@@ -1,7 +1,7 @@
 {
-  "version": "1.9.237",
-  "fileName": "DropXV1.9.237.zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.237/DropXV1.9.237.zip",
+  "version": "1.9.238",
+  "fileName": "DropXV1.9.238.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.238/DropXV1.9.238.zip",
   "packageType": "zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "7",
@@ -10,11 +10,13 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "1",
   "notes": [
-    "perf: Emulator setup is about 5 minutes faster \u2014 it no longer waits out a timer when the root service has already stopped"
+    "More reliable one-time emulator setup on slower or busy PCs: the root step now waits out Android \u201cisn\u2019t responding\u201d prompts instead of restarting, uses more CPU cores on capable machines, and allows longer for the first boot.",
+    "Setup now records exactly what the device was doing if it stalls, for faster support.",
+    "Fixes a brief command-window flash while the Whatnot emulator bot was running."
   ],
-  "sha256": "ddfc33ff09abf517d6838a82e533fe57f6b53dce93daba9e8b36bb543c492d5c",
+  "sha256": "1d7917405ce736dbd7c0349acab94effd58f947d617e300dcf5a192d968e3da1",
   "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
   "harvesterRuntimeSha256": "db004069e9443fb9693248353cfbee7f16db60b3aca752eb61515a0cd401e17c",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "BRNW7RQBxlzJgORvzKZ6SVYumupOPbuKYvRE9MPQ5PY+9yCfTJ3oj/3C1vflisETBx8lrhITJHmDvILK3yblBg=="
+  "signature": "h5VHFHUUmv8ZE8dfe5KgUrYrD0+0RPhOKeEuvFfoLRcYBzmH5gMHADU6BkP3/IyI0QGa36t/KAyQgV7dAaDxDA=="
 }
