@@ -1,7 +1,7 @@
 {
-  "version": "1.9.235",
-  "fileName": "DropXV1.9.235.zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.235/DropXV1.9.235.zip",
+  "version": "1.9.236",
+  "fileName": "DropXV1.9.236.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.236/DropXV1.9.236.zip",
   "packageType": "zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "7",
@@ -10,11 +10,12 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "1",
   "notes": [
-    "fix: Clear install now refuses while an emulator is running, instead of deleting the base device image out from under it"
+    "fix: Enabling root gives the device more room to breathe on slower PCs \u2014 fewer freezes during setup",
+    "fix: Setup waits for the root manager to finish its first launch before asking for permission"
   ],
-  "sha256": "a46b2765ad8df0981913d0f653684c3933df3dca5bb54ac521e56e469fb329c8",
+  "sha256": "9bd0f8115c6b44a13842b5a1ee6e0cb1716300f4b90847613514f8ee43d581d1",
   "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
   "harvesterRuntimeSha256": "db004069e9443fb9693248353cfbee7f16db60b3aca752eb61515a0cd401e17c",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "sPmx+xXuXrH9DW0T4V7ZHpNrnP1jPtmcoEzISnJ9VgvHiSlronPnzmr3bXIvbNoOVAlRG7aKNFGRZjIlr2lvAA=="
+  "signature": "a86RPTThguHubVxDZJEQrSzuXnPKg0/mtuqEvg73iNVuBV8gKb44Re0VamTSaHVdV4tkj1PW78arJfMOC1sBBg=="
 }
