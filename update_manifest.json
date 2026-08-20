@@ -1,22 +1,23 @@
 {
-  "version": "1.9.239",
-  "fileName": "DropXV1.9.239.zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.239/DropXV1.9.239.zip",
+  "version": "1.9.241",
   "packageType": "zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.241/DropXV1.9.241.zip",
+  "fileName": "DropXV1.9.241.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
-  "whatnotRuntimeVersion": "7",
+  "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
   "harvesterRuntimeVersion": "2",
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "1",
   "notes": [
-    "More reliable one-time emulator setup: if the Android emulator still can't start on your PC, setup now records exactly why (virtualization state, free disk, memory) so it can be fixed fast.",
-    "Removed the brief command-window flashes that could appear while the Whatnot emulator bot ran.",
-    "Stability and diagnostics improvements."
+    "DropX 1.9.241",
+    "Whatnot runtime v12 with branded Whatnot exe icons",
+    "Public configs exclude personal email and Gmail credentials",
+    "Whatnot tab: Launch, overlay, A17 provision, device check, and bundled adb"
   ],
-  "sha256": "398c8207402849dc8ecdb1ce76e0aff3491fdb76860a36b090df87e482f55a1f",
-  "whatnotRuntimeSha256": "2cf7ce87142390aad64c450c843c02edae680d7405c9243e070c793cd87024df",
-  "harvesterRuntimeSha256": "db004069e9443fb9693248353cfbee7f16db60b3aca752eb61515a0cd401e17c",
+  "sha256": "f1e1d7fbc903bd15f3918940e08cc5fa1e9ccc721d0156b39834da54d1be1237",
+  "whatnotRuntimeSha256": "9b6d665f1574fef3c705899ff17dfa8029aaf4a63a9cb56b5c720d44f304a852",
+  "harvesterRuntimeSha256": "3993a0ec15c36220890c18bc8630bf9abf338a4abbdd543064058fa584cdfd87",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "LFYl7uOQjntU0Hlq+duR4zrC99Se0VSMvqnpoKmR/IS7s5HOW82XIjv7kLQdjFXj7+xLNyGXWBz9JNh7Sj8dAw=="
+  "signature": "g1lLGF5npCU11KB/ytkj+X0r+635M55vK8RjjwDq9brXmNvOc8h7LY1cm/2StzxtCOtx7Yjd6Ez3FzvQIUJoDw=="
 }
