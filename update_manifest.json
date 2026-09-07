@@ -1,8 +1,8 @@
 {
-  "version": "1.9.241",
+  "version": "1.9.244",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.241/DropXV1.9.241.zip",
-  "fileName": "DropXV1.9.241.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.244/DropXV1.9.244.zip",
+  "fileName": "DropXV1.9.244.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -10,14 +10,15 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "1",
   "notes": [
-    "DropX 1.9.241",
-    "Whatnot runtime v12 with branded Whatnot exe icons",
-    "Public configs exclude personal email and Gmail credentials",
-    "Whatnot tab: Launch, overlay, A17 provision, device check, and bundled adb"
+    "fix: Restores sign-in and licence validation - the account server moved address",
+    "fix: Verification and password-reset emails now link to the live site",
+    "security: A host answering with an access wall is no longer trusted as the backend",
+    "new: Stale account settings repair themselves to the live host on launch",
+    "ui: The sign-in screen now tells you when an update is what's needed"
   ],
-  "sha256": "f1e1d7fbc903bd15f3918940e08cc5fa1e9ccc721d0156b39834da54d1be1237",
+  "sha256": "f274b42f288cb9570db5fca2ff5fd965513e45b04e4180f02989e9dd661ad2bb",
   "whatnotRuntimeSha256": "9b6d665f1574fef3c705899ff17dfa8029aaf4a63a9cb56b5c720d44f304a852",
-  "harvesterRuntimeSha256": "3993a0ec15c36220890c18bc8630bf9abf338a4abbdd543064058fa584cdfd87",
+  "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "g1lLGF5npCU11KB/ytkj+X0r+635M55vK8RjjwDq9brXmNvOc8h7LY1cm/2StzxtCOtx7Yjd6Ez3FzvQIUJoDw=="
+  "signature": "I1dVVvMLIBh9j+4m68M2cB3Y1YCkVtzNMrz95j3e6LRf/zqKej6zgf9GrBig6IEY5K/jw5S1tvA8ZTPSfQoJAQ=="
 }
