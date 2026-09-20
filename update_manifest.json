@@ -1,22 +1,23 @@
 {
-  "version": "1.9.245",
+  "version": "1.9.247",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.245/DropXV1.9.245.zip",
-  "fileName": "DropXV1.9.245.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.247/DropXV1.9.247.zip",
+  "fileName": "DropXV1.9.247.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
   "harvesterRuntimeVersion": "2",
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
-  "dropxRuntimeVersion": "1",
-  "notes": [
-    "fix: Restores sign-in and licence validation - the account server moved address",
-    "security: Authorised requests refuse an off-backend redirect and always identify themselves",
-    "fix: A stale saved backend address can no longer override the pinned one"
-  ],
-  "sha256": "c654072605b2498286fd5571839f14436e870cf213e1ae32681cb22bf33add13",
+  "dropxRuntimeVersion": "2",
   "whatnotRuntimeSha256": "9b6d665f1574fef3c705899ff17dfa8029aaf4a63a9cb56b5c720d44f304a852",
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
-  "dropxRuntimeSha256": "80328ef9352590ef6635b6b113adb5f1bc88debbb925294bf6ac21622cc93fd3",
-  "signature": "uIIsVqvOghRxhKlbpi9FnVX/73fkmwdYdjDoeR2jm680L4E9gDeRGycrIgD5P4Yn3Y3nWwuIe2IbXTf8vVLRCA=="
+  "notes": [
+    "DropX 1.9.247",
+    "Whatnot emulator: tap-free in-guest root (no MagiskSU grant dialog) \u2014 faster, more reliable install",
+    "Remove old install button for upgrading from a previous emulator build",
+    "Account generator runtime dependencies bundled (Walmart/Sams/Topps generators)"
+  ],
+  "sha256": "4a0c0f9e9978f6638e7a6b1923c3b6ba92e4189206ac0358297b37be5d483cda",
+  "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
+  "signature": "xKtqctKi0VX/lUgI73tuE75jgWmv6n022AQQ+uYHa/KJAiKgT+dwG/Yst9UZ9QLEcIOpnc0gFQwJTha4vHa6Ag=="
 }
