@@ -1,8 +1,8 @@
 {
-  "version": "1.9.248",
+  "version": "1.9.249",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.248/DropXV1.9.248.zip",
-  "fileName": "DropXV1.9.248.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.249/DropXV1.9.249.zip",
+  "fileName": "DropXV1.9.249.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,11 +13,11 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "DropX 1.9.248",
-    "Emulator setup: fixed a root-step failure that could stop install with 'device image is missing'",
-    "Recover a broken/partial install from any state: Remove old install & reinstall, plus Export diagnostics when setup fails",
-    "Virtualization: clearer steps (the admin window closes itself, then restart), honest restart detection, and a live Check-status button"
+    "DropX 1.9.249",
+    "Emulator setup is far more reliable on slower PCs: the one-time device boot now waits as long as it is actually making progress (compiling the Android system) instead of giving up too early",
+    "Clearer help when a PC is near the minimum: detects if Windows 'Core Isolation / Memory Integrity' is slowing things down and points to the physical-phone option",
+    "Old-install cleanup and fresh reinstall unchanged"
   ],
-  "sha256": "31280f8e97a28d65e158eeafe85772131b789cd84e9fa64b899188a5590a9954",
-  "signature": "Wwj7MQ+FIUyuMBX1oHinnq4Ip3Y+9N59b7ZVdlbK32FeYKdQPxrQGjU2iyDziXq+1xbl30w/3Ykw8lXGJKhiDw=="
+  "sha256": "785778f0cbf25142830a41c34649ca1d668697ff44c632e8198ab41824d26451",
+  "signature": "K4J5nPzvUU9tgn4S1KNl+Eo5yWmCX72C0cpBooOJ39HUvexk5COcYuNo+s5vk9QbVLT+j4WpNWLlrsje2eXiDw=="
 }
