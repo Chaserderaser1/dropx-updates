@@ -1,8 +1,8 @@
 {
-  "version": "1.9.253",
+  "version": "1.9.254",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.253/DropXV1.9.253.zip",
-  "fileName": "DropXV1.9.253.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.254/DropXV1.9.254.zip",
+  "fileName": "DropXV1.9.254.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,10 +13,10 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "DropX 1.9.253",
-    "You can now choose how many CPU cores each emulator uses, on the install screen and before every launch \u2014 DropX pre-fills the amount recommended for your CPU. More cores makes each emulator smoother on slower PCs; fewer lets you run more at once.",
-    "Removes the leftover 'connect to the Internet / upgrade Magisk' pop-up on emulators set up with the new root method (it isn't needed there)."
+    "DropX 1.9.254",
+    "You can now set how much of your PC's RAM each emulator is allowed to use (a new 'RAM each' control on the install and launch screens) \u2014 raise it on a PC with spare memory for a much smoother, less laggy stream; lower it to fit more emulators. DropX pre-fills the amount recommended for your free RAM.",
+    "Fixes a device-setup step that was silently failing on some PCs and making the emulator run slow, plus shows the actual CPU cores each emulator got."
   ],
-  "sha256": "99876dd2146573d4c5f054f0ae6c4b9a1672dd2e8504844234fd23fd0e062367",
-  "signature": "kEp1b3mvILp4W1dHA7tul3BLTAPyDfkkFlPf2IX3IN2NFbHUdl3f5NQQee0uePsLY8UEsx+79n2wLJHeLL2QDw=="
+  "sha256": "e4fba6a722896faac23a4d7a188eabb31f7d25535923822ac001ed8e82a12d9c",
+  "signature": "2w5mNBVn+DQ1VXC0TM/lSEqd/Bm8KHx30xdaA0x2txgUYFwnSd06L0z9OjuGBRy5VNZu8yjUmk239hG7DbIuBA=="
 }
