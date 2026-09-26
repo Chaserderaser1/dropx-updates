@@ -1,8 +1,8 @@
 {
-  "version": "1.9.252",
+  "version": "1.9.253",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.252/DropXV1.9.252.zip",
-  "fileName": "DropXV1.9.252.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.253/DropXV1.9.253.zip",
+  "fileName": "DropXV1.9.253.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,10 +13,10 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "DropX 1.9.252",
-    "Fixes emulator setup getting stuck on 'this device isn't rooted' on lower-powered PCs: root now comes from DropX's own built-in method instead of the pop-up grant that could freeze a busy device, so setup finishes reliably on slower machines.",
-    "Builds on 1.9.251's smaller disk requirement and leftover-emulator cleanup."
+    "DropX 1.9.253",
+    "You can now choose how many CPU cores each emulator uses, on the install screen and before every launch \u2014 DropX pre-fills the amount recommended for your CPU. More cores makes each emulator smoother on slower PCs; fewer lets you run more at once.",
+    "Removes the leftover 'connect to the Internet / upgrade Magisk' pop-up on emulators set up with the new root method (it isn't needed there)."
   ],
-  "sha256": "417c611f2bc9bbd0182164d50c3e6d4358d4082a73ce00c451bcc5607b5df145",
-  "signature": "G8fiDfcj+lA8FFPsosynTbvQg+MrbKqAmXyP03nC8CmYLRght5ohBvkYhnthAO07uaAl27rysK4PdwoSFfvEAw=="
+  "sha256": "99876dd2146573d4c5f054f0ae6c4b9a1672dd2e8504844234fd23fd0e062367",
+  "signature": "kEp1b3mvILp4W1dHA7tul3BLTAPyDfkkFlPf2IX3IN2NFbHUdl3f5NQQee0uePsLY8UEsx+79n2wLJHeLL2QDw=="
 }
