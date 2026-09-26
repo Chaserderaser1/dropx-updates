@@ -1,8 +1,8 @@
 {
-  "version": "1.9.249",
+  "version": "1.9.250",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.249/DropXV1.9.249.zip",
-  "fileName": "DropXV1.9.249.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.250/DropXV1.9.250.zip",
+  "fileName": "DropXV1.9.250.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,11 +13,11 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "DropX 1.9.249",
-    "Emulator setup is far more reliable on slower PCs: the one-time device boot now waits as long as it is actually making progress (compiling the Android system) instead of giving up too early",
-    "Clearer help when a PC is near the minimum: detects if Windows 'Core Isolation / Memory Integrity' is slowing things down and points to the physical-phone option",
-    "Old-install cleanup and fresh reinstall unchanged"
+    "DropX 1.9.250",
+    "More reliable app updates: the updater now launches its installer by its exact Windows system path and waits a little longer on slower PCs, so an update is far less likely to be wrongly blocked.",
+    "If an update is ever blocked (for example by antivirus), DropX keeps you on your current working version and tells you \u2014 run repair_dropx.bat next to DropX.exe, or reinstall from the latest download, to update.",
+    "No other changes."
   ],
-  "sha256": "785778f0cbf25142830a41c34649ca1d668697ff44c632e8198ab41824d26451",
-  "signature": "K4J5nPzvUU9tgn4S1KNl+Eo5yWmCX72C0cpBooOJ39HUvexk5COcYuNo+s5vk9QbVLT+j4WpNWLlrsje2eXiDw=="
+  "sha256": "6ffc6c1b2e9f0842bf9cf68e6658bca21897f8a9b532f3341f9a539574369d70",
+  "signature": "xSNlSVf4AO/Ahs8scj6CpRd1kjbwcK5GBUm7RWka0JnJVJ+/A80C3XW+dX8DTfj0kjQ81JNHgBoOY0/Jpk86CQ=="
 }
