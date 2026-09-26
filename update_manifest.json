@@ -1,8 +1,8 @@
 {
-  "version": "1.9.251",
+  "version": "1.9.252",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.251/DropXV1.9.251.zip",
-  "fileName": "DropXV1.9.251.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.252/DropXV1.9.252.zip",
+  "fileName": "DropXV1.9.252.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,10 +13,10 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "DropX 1.9.251",
-    "Emulator setup now works on more PCs and recovers from more snags: it needs less free disk space (a smaller device partition when your drive is tight, instead of a hard 48 GB wall), automatically clears a leftover emulator that was blocking a restart, and waits properly for root to finish on slower machines instead of wrongly reporting the device isn't rooted.",
-    "Clearer error messages when a genuine problem (like a truly full disk) does stop setup."
+    "DropX 1.9.252",
+    "Fixes emulator setup getting stuck on 'this device isn't rooted' on lower-powered PCs: root now comes from DropX's own built-in method instead of the pop-up grant that could freeze a busy device, so setup finishes reliably on slower machines.",
+    "Builds on 1.9.251's smaller disk requirement and leftover-emulator cleanup."
   ],
-  "sha256": "ed13fc63759e52cd4b7ca3395a41f41f1d24fc1c9b9966e64f0d296940b4dcb4",
-  "signature": "wpUK/yjbv35kxnL45dzLiNkMRe2TtMKJOw/G+4feWWP5ZFRj3lHifSdHywBEymf/e/XYAHGNAU8r8Xs3noH4Aw=="
+  "sha256": "417c611f2bc9bbd0182164d50c3e6d4358d4082a73ce00c451bcc5607b5df145",
+  "signature": "G8fiDfcj+lA8FFPsosynTbvQg+MrbKqAmXyP03nC8CmYLRght5ohBvkYhnthAO07uaAl27rysK4PdwoSFfvEAw=="
 }
