@@ -1,8 +1,8 @@
 {
-  "version": "1.9.254",
+  "version": "1.9.255",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.254/DropXV1.9.254.zip",
-  "fileName": "DropXV1.9.254.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.255/DropXV1.9.255.zip",
+  "fileName": "DropXV1.9.255.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,10 +13,11 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "DropX 1.9.254",
-    "You can now set how much of your PC's RAM each emulator is allowed to use (a new 'RAM each' control on the install and launch screens) \u2014 raise it on a PC with spare memory for a much smoother, less laggy stream; lower it to fit more emulators. DropX pre-fills the amount recommended for your free RAM.",
-    "Fixes a device-setup step that was silently failing on some PCs and making the emulator run slow, plus shows the actual CPU cores each emulator got."
+    "DropX 1.9.255",
+    "Whatnot emulator: the streamer rotation now climbs back to your highest-priority streamers when their cooldowns end, instead of getting stuck on lower-priority ones. It only swaps your lower slot and never cuts off a giveaway you're in.",
+    "Whatnot emulator: the log window no longer shows \"Stopped\" while the bots are running; closing DropX mid-setup now offers \"Resume\"; cores/RAM can't be changed mid-launch, and the RAM box fits 4-digit values.",
+    "Updates now wait until your running tasks are stopped. If something is running, the update card lists it with a one-click \"Stop all & update\" (re-arm your drops afterwards)."
   ],
-  "sha256": "e4fba6a722896faac23a4d7a188eabb31f7d25535923822ac001ed8e82a12d9c",
-  "signature": "2w5mNBVn+DQ1VXC0TM/lSEqd/Bm8KHx30xdaA0x2txgUYFwnSd06L0z9OjuGBRy5VNZu8yjUmk239hG7DbIuBA=="
+  "sha256": "fbf791fccfb5696ba3f584e5ed8043066e870a4986291a92019ddc5bd2a996ba",
+  "signature": "dqJf6I4+otKb0Jvf3BOlRHYmaSUt0KIrWzepRVvb6SEaVSQxjbWRzgjezrJBAtfHa4LQdwCJXBXUg3pt/5psDw=="
 }
