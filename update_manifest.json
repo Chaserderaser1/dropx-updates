@@ -1,8 +1,8 @@
 {
-  "version": "1.9.255",
+  "version": "1.9.256",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.255/DropXV1.9.255.zip",
-  "fileName": "DropXV1.9.255.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.256/DropXV1.9.256.zip",
+  "fileName": "DropXV1.9.256.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,11 +13,10 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "DropX 1.9.255",
-    "Whatnot emulator: the streamer rotation now climbs back to your highest-priority streamers when their cooldowns end, instead of getting stuck on lower-priority ones. It only swaps your lower slot and never cuts off a giveaway you're in.",
-    "Whatnot emulator: the log window no longer shows \"Stopped\" while the bots are running; closing DropX mid-setup now offers \"Resume\"; cores/RAM can't be changed mid-launch, and the RAM box fits 4-digit values.",
-    "Updates now wait until your running tasks are stopped. If something is running, the update card lists it with a one-click \"Stop all & update\" (re-arm your drops afterwards)."
+    "DropX 1.9.256",
+    "Account Generator: a task can now be started again after it finishes or is stopped, without restarting DropX. Double-clicking Start no longer leaves a task stuck.",
+    "Includes everything in 1.9.255: emulator streamer rotation climbs back to your top streamers, update waits for running tasks (\"Stop all & update\"), resume after closing mid-setup, and the log window no longer shows \"Stopped\" while bots run."
   ],
-  "sha256": "fbf791fccfb5696ba3f584e5ed8043066e870a4986291a92019ddc5bd2a996ba",
-  "signature": "dqJf6I4+otKb0Jvf3BOlRHYmaSUt0KIrWzepRVvb6SEaVSQxjbWRzgjezrJBAtfHa4LQdwCJXBXUg3pt/5psDw=="
+  "sha256": "c742f569a46bee4fe4fe090f60863bfdfdcb5d07cf2f9bbec71fa1ac473c6d69",
+  "signature": "r0VnAc3zaDg9Rv3Qm1bJMKSnvBv3cL84lFXVerSf1HNlY3BdfKbC9dRabJ/THALw+owWAlXKACSPsAGccywgDQ=="
 }
