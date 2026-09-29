@@ -1,8 +1,8 @@
 {
-  "version": "1.9.256",
+  "version": "1.9.257",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.256/DropXV1.9.256.zip",
-  "fileName": "DropXV1.9.256.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.257/DropXV1.9.257.zip",
+  "fileName": "DropXV1.9.257.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,10 +13,15 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "DropX 1.9.256",
-    "Account Generator: a task can now be started again after it finishes or is stopped, without restarting DropX. Double-clicking Start no longer leaves a task stuck.",
-    "Includes everything in 1.9.255: emulator streamer rotation climbs back to your top streamers, update waits for running tasks (\"Stop all & update\"), resume after closing mid-setup, and the log window no longer shows \"Stopped\" while bots run."
+    "new: Post my wins - share your Whatnot giveaway wins to #whatnot-wins in the DropX Discord, stamped with the DropX logo (button, or automatic every 12 hours of bot runtime)",
+    "new: DropX usernames - pick one once, then sign in with your username or email; change it from the menu",
+    "new: Watermark a win - drop in a screenshot and DropX stamps its logo on it to copy or save",
+    "new: Drag and drop to reorder your giveaway streamers; streamers with spaces in their names now work",
+    "fix: A show that ended or raided out now cools that streamer for 15 minutes",
+    "fix: An emulator could get stuck jumping in a loop after a pop-up - fixed",
+    "new: Crash logs are now included in Export diagnostics",
+    "security: Hardened the app window and added rate limits to account sign-in"
   ],
-  "sha256": "c742f569a46bee4fe4fe090f60863bfdfdcb5d07cf2f9bbec71fa1ac473c6d69",
-  "signature": "r0VnAc3zaDg9Rv3Qm1bJMKSnvBv3cL84lFXVerSf1HNlY3BdfKbC9dRabJ/THALw+owWAlXKACSPsAGccywgDQ=="
+  "sha256": "e167c85afc9ee8fcc6fdf0fad7efc843fcc95d38441b10392b44fd414a35c2ae",
+  "signature": "OUCuE8CEtQI+PVlul8k0keZkA0ob9hIXGyQGZaYAgWh63SjmKq7TPUYV0LKomyeQBiwpzj33Ou9puPdIvfAMAQ=="
 }
