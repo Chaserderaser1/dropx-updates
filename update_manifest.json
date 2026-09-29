@@ -1,8 +1,8 @@
 {
-  "version": "1.9.257",
+  "version": "1.9.258",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.257/DropXV1.9.257.zip",
-  "fileName": "DropXV1.9.257.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.258/DropXV1.9.258.zip",
+  "fileName": "DropXV1.9.258.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,15 +13,12 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "new: Post my wins - share your Whatnot giveaway wins to #whatnot-wins in the DropX Discord, stamped with the DropX logo (button, or automatic every 12 hours of bot runtime)",
-    "new: DropX usernames - pick one once, then sign in with your username or email; change it from the menu",
-    "new: Watermark a win - drop in a screenshot and DropX stamps its logo on it to copy or save",
-    "new: Drag and drop to reorder your giveaway streamers; streamers with spaces in their names now work",
-    "fix: A show that ended or raided out now cools that streamer for 15 minutes",
-    "fix: An emulator could get stuck jumping in a loop after a pop-up - fixed",
-    "new: Crash logs are now included in Export diagnostics",
-    "security: Hardened the app window and added rate limits to account sign-in"
+    "fix: 'License required' while your subscription is active - the app now re-checks with the server itself and tells you exactly why if it refuses (including a wrong PC clock)",
+    "fix: emulator settings (streamer list, CPU cores, RAM) not saving - a failed save now shows a pop-up with the reason",
+    "improved: new DropX seal watermark, centred on every win photo",
+    "improved: smoother streamer-list drag and drop, move-to-top button, keyboard reordering",
+    "improved: Post my wins shows results as pop-ups and checks Whatnot is open first"
   ],
-  "sha256": "e167c85afc9ee8fcc6fdf0fad7efc843fcc95d38441b10392b44fd414a35c2ae",
-  "signature": "OUCuE8CEtQI+PVlul8k0keZkA0ob9hIXGyQGZaYAgWh63SjmKq7TPUYV0LKomyeQBiwpzj33Ou9puPdIvfAMAQ=="
+  "sha256": "6c6c1e31f98acedff1d92c6e9ef83d7f531a9ea1f86785e0a2a68fb61ba81417",
+  "signature": "+bPGZSDSZWcIxBnl5qdJhFoV3+tLzrYTilL5z/Kyi2+dpWzF2hsB/GPpuKSGaTj5vYAeKf+2sCwG7XtWxm0JBg=="
 }
