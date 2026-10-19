@@ -1,8 +1,8 @@
 {
-  "version": "1.9.258",
+  "version": "1.9.260",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.258/DropXV1.9.258.zip",
-  "fileName": "DropXV1.9.258.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.260/DropXV1.9.260.zip",
+  "fileName": "DropXV1.9.260.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,12 +13,11 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "fix: 'License required' while your subscription is active - the app now re-checks with the server itself and tells you exactly why if it refuses (including a wrong PC clock)",
-    "fix: emulator settings (streamer list, CPU cores, RAM) not saving - a failed save now shows a pop-up with the reason",
-    "improved: new DropX seal watermark, centred on every win photo",
-    "improved: smoother streamer-list drag and drop, move-to-top button, keyboard reordering",
-    "improved: Post my wins shows results as pop-ups and checks Whatnot is open first"
+    "new: Fully headless Whatnot giveaway detection + auto-enter (no on-screen OCR)",
+    "feat: Manage Google accounts \u2014 log in/out, add, or remove accounts in the emulator",
+    "fix: Emulator Settings no longer closes instantly when managing accounts",
+    "perf: Lighter socket-driven giveaway path (no screen capture)"
   ],
-  "sha256": "6c6c1e31f98acedff1d92c6e9ef83d7f531a9ea1f86785e0a2a68fb61ba81417",
-  "signature": "+bPGZSDSZWcIxBnl5qdJhFoV3+tLzrYTilL5z/Kyi2+dpWzF2hsB/GPpuKSGaTj5vYAeKf+2sCwG7XtWxm0JBg=="
+  "sha256": "f6899b8099415daaa68c07d981fbdb1c066900eae2f3fa6dee8665ad6169270d",
+  "signature": "W8P+H0HX67JbtXYM6m+jnf0FTF8cDJD204GTahsKDqwozarGIrCf6E2Pk1ZbGJ7mu9NRIxxfPTzEOukw7OlTAw=="
 }
