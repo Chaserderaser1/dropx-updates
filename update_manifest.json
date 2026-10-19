@@ -1,8 +1,8 @@
 {
-  "version": "1.9.261",
+  "version": "1.9.262",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.261/DropXV1.9.261.zip",
-  "fileName": "DropXV1.9.261.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.262/DropXV1.9.262.zip",
+  "fileName": "DropXV1.9.262.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,11 +13,10 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "new: Fully headless Whatnot giveaway detection + auto-enter (no on-screen OCR)",
-    "feat: Manage Google accounts \u2014 log in/out, add, or remove accounts in the emulator",
-    "fix: Emulator Settings app no longer auto-closes (restores the USB feature it needs)",
-    "perf: Lighter socket-driven giveaway path (no screen capture)"
+    "fix: Giveaway bot now STAYS in the stream through the winner draw (Whatnot requires presence \u2014 no more leaving early)",
+    "new: Enters giveaways on ALL your priority streams at once (multi-stream), present through every roll",
+    "fix: Emulator Settings app opens again + Manage Google accounts button"
   ],
-  "sha256": "3798db483f5d09ec614e6ece731dcc4656703ad1debaab899aae3675c986c1ca",
-  "signature": "9THfdJaXKyvExadH38seneXtlnMke8zzaEzYVFy9i+HAiF/zqSDmxZuKkHFhK2y8deihukZcQdidv5ZmoKeRDA=="
+  "sha256": "017c53c48594f67686df879f7f1d53c78939a24373deee6c237d217de95d7024",
+  "signature": "r51hOJhheo6LovfRt5aPhkhWdCY7tqDmOIrpOkD/TBX65Mp1sK5CwHnf9W0Eo8UopQhhgCm93/UO12kcs0fvBg=="
 }
