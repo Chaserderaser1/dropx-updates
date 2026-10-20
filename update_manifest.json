@@ -1,8 +1,8 @@
 {
-  "version": "1.9.264",
+  "version": "1.9.265",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.264/DropXV1.9.264.zip",
-  "fileName": "DropXV1.9.264.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.265/DropXV1.9.265.zip",
+  "fileName": "DropXV1.9.265.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,9 +13,11 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "fix: emulator storage now clears itself automatically every time you open DropX (not only when you launch) \u2014 leftover quick-boot snapshots no longer pile up",
-    "improved: the 'clear leftover storage' button only appears now if there is actually old buildup to reclaim; on the current version it stays hidden because cleanup is automatic"
+    "fix: the giveaway bot now RE-ENTERS automatically \u2014 after a streamer's winner is rolled it stays on that streamer and enters the next giveaway the instant it appears, across all your streamers at once (it used to stop watching a streamer after a win)",
+    "improved: it now watches up to 6 streamers simultaneously (no more '1/2 priority' \u2014 all watched streamers get the live marker); a stream that ends reconnects when it's live again with no cooldown, and a raid no longer drops you",
+    "fix: Manage Google accounts now lets you pick which emulator when more than one is running, and no longer flashes command-prompt windows",
+    "fix: the Whatnot log window now closes when you stop the last running bot"
   ],
-  "sha256": "39e29e50fa90ebae413b66578efdffe923b02d93ea11d56cdb026404e57b9af7",
-  "signature": "i6foJ83PM/vQoZ0BDMAGLTt6bHsMvRHgBbFH7P/M3hPGlGQ/eQZSztJmwIrGMDAj/IwhjTMTSeQCFzp/f0vkBw=="
+  "sha256": "88d99aa79cdbe5edc68e706ca7fed5916d65cb527e234dc73c6dd8de68c1b32c",
+  "signature": "b8ADznZO+/tJ2wIpXwnF2SOsK3r4Dmh6BbYbOGCXTgzF/QRADW3Tl3YpRq5wpOZTdgggktNqIN3DC3tI9Y6jDQ=="
 }
