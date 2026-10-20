@@ -1,8 +1,8 @@
 {
-  "version": "1.9.269",
+  "version": "1.9.270",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.269/DropXV1.9.269.zip",
-  "fileName": "DropXV1.9.269.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.270/DropXV1.9.270.zip",
+  "fileName": "DropXV1.9.270.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,8 +13,8 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "fix: emulator bots that showed BOT ERROR after the Magisk update no longer fail. The nag fix was disabling too much (it took out the Superuser grant popup the bot needs for root); it now disables only the nag and keeps the grant working, and automatically repairs any emulator the previous update broke on its next launch."
+    "diagnostics: the emulator bot now captures a full live state snapshot (root/su/Magisk/channel/login/creds/network) to its log and the 'Send diagnostics' zip, so a failing bot shows exactly where and why it breaks. Also carries the 1.9.269 Magisk bot-root fix."
   ],
-  "sha256": "fb214597268b3af112d7be4d30f5f2a7c3584980afd45d12989da186f485d357",
-  "signature": "Nd+YuDcjHXW2l3XIMCumXiOrZUkyj0tSUvtX/uT00g17f/QOKARdhA6zihXgbTjVqNIA5mYy6ym2KAB6EqAeDw=="
+  "sha256": "2ab76c7cda32538567c4c0c51f8977657d425366c30f868a44b8478b6ff0dcd6",
+  "signature": "gcB47lgNxNZWLzchUaJsPjIz3yezTH6k+wZkCbA429wJfi+mr6186cMOOzP5Fy6Y1Kua37+kKs89ms4X4GJPAA=="
 }
