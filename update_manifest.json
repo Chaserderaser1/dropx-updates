@@ -1,8 +1,8 @@
 {
-  "version": "1.9.262",
+  "version": "1.9.263",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.262/DropXV1.9.262.zip",
-  "fileName": "DropXV1.9.262.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.263/DropXV1.9.263.zip",
+  "fileName": "DropXV1.9.263.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,10 +13,9 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "fix: Giveaway bot now STAYS in the stream through the winner draw (Whatnot requires presence \u2014 no more leaving early)",
-    "new: Enters giveaways on ALL your priority streams at once (multi-stream), present through every roll",
-    "fix: Emulator Settings app opens again + Manage Google accounts button"
+    "fix: the emulator Settings app no longer closes the instant you open it \u2014 so you can reliably sign in to, add, or remove Google accounts on each emulator",
+    "improved: the giveaway log is quieter when entering across many streamers at once (the 'still entered' recheck is summarised instead of repeating every few seconds)"
   ],
-  "sha256": "017c53c48594f67686df879f7f1d53c78939a24373deee6c237d217de95d7024",
-  "signature": "r51hOJhheo6LovfRt5aPhkhWdCY7tqDmOIrpOkD/TBX65Mp1sK5CwHnf9W0Eo8UopQhhgCm93/UO12kcs0fvBg=="
+  "sha256": "937f03047bcb77e067d7972b563110c37fbdb9253403ec6d0ea1e292d2788dde",
+  "signature": "t1bsGGtF7YC2AxxR9wUaUiDyIiCIhlO4nJRy9tDLoN1adC0VTld9dfTbKx4bsrIQxKMWDLPWciS1OCiPoiJkAg=="
 }
