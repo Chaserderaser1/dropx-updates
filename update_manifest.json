@@ -1,8 +1,8 @@
 {
-  "version": "1.9.263",
+  "version": "1.9.264",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.263/DropXV1.9.263.zip",
-  "fileName": "DropXV1.9.263.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.264/DropXV1.9.264.zip",
+  "fileName": "DropXV1.9.264.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,9 +13,9 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "fix: the emulator Settings app no longer closes the instant you open it \u2014 so you can reliably sign in to, add, or remove Google accounts on each emulator",
-    "improved: the giveaway log is quieter when entering across many streamers at once (the 'still entered' recheck is summarised instead of repeating every few seconds)"
+    "fix: emulator storage now clears itself automatically every time you open DropX (not only when you launch) \u2014 leftover quick-boot snapshots no longer pile up",
+    "improved: the 'clear leftover storage' button only appears now if there is actually old buildup to reclaim; on the current version it stays hidden because cleanup is automatic"
   ],
-  "sha256": "937f03047bcb77e067d7972b563110c37fbdb9253403ec6d0ea1e292d2788dde",
-  "signature": "t1bsGGtF7YC2AxxR9wUaUiDyIiCIhlO4nJRy9tDLoN1adC0VTld9dfTbKx4bsrIQxKMWDLPWciS1OCiPoiJkAg=="
+  "sha256": "39e29e50fa90ebae413b66578efdffe923b02d93ea11d56cdb026404e57b9af7",
+  "signature": "i6foJ83PM/vQoZ0BDMAGLTt6bHsMvRHgBbFH7P/M3hPGlGQ/eQZSztJmwIrGMDAj/IwhjTMTSeQCFzp/f0vkBw=="
 }
