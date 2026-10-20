@@ -1,8 +1,8 @@
 {
-  "version": "1.9.267",
+  "version": "1.9.268",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.267/DropXV1.9.267.zip",
-  "fileName": "DropXV1.9.267.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.268/DropXV1.9.268.zip",
+  "fileName": "DropXV1.9.268.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,8 +13,8 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "fix: emulators no longer get stuck on Magisk's 'upgrade to full Magisk / download and install to finish setup' prompt \u2014 Magisk pushed a new version (30.6) and every device's older manager started demanding an update; DropX now disables that nag automatically (your root/login are unaffected)"
+    "fix: the Magisk 'upgrade to full Magisk / finish setup' prompt no longer shows on emulators. New emulators disable that nag from inside the guest at boot (zero flash); already-installed emulators clear it the next time they launch and stay clear after. Your root and Whatnot login are unaffected."
   ],
-  "sha256": "f52a61f3d30c9382c496c528a4eb8cbaf91e1ea4156b05b1e7626f67bcf3bac0",
-  "signature": "bowMXkSeDUIpR1+qPcmNO01tsSzJWeqAda7QsbhNshlXFed5xvZIpnxzliA4Ya2xEuVd7axwAsm/8h1xlQkBAA=="
+  "sha256": "e0e98bafc28859f58cd3ae2779fb49757c6f70737b88790b671b656127fd8ba3",
+  "signature": "/hS+jzERkz7HxBorZefybT9NKmBRKDvkF92rJeei8+MzDTWU+E0nKL2VfPDRtiBnWbjdmQFGGxlDU/HM8RTPAA=="
 }
