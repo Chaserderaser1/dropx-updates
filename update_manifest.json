@@ -1,8 +1,8 @@
 {
-  "version": "1.9.265",
+  "version": "1.9.266",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.265/DropXV1.9.265.zip",
-  "fileName": "DropXV1.9.265.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.266/DropXV1.9.266.zip",
+  "fileName": "DropXV1.9.266.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,11 +13,10 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "fix: the giveaway bot now RE-ENTERS automatically \u2014 after a streamer's winner is rolled it stays on that streamer and enters the next giveaway the instant it appears, across all your streamers at once (it used to stop watching a streamer after a win)",
-    "improved: it now watches up to 6 streamers simultaneously (no more '1/2 priority' \u2014 all watched streamers get the live marker); a stream that ends reconnects when it's live again with no cooldown, and a raid no longer drops you",
-    "fix: Manage Google accounts now lets you pick which emulator when more than one is running, and no longer flashes command-prompt windows",
-    "fix: the Whatnot log window now closes when you stop the last running bot"
+    "improved: the giveaway bot now BACKFILLS \u2014 if a streamer on your list isn't live (or their stream ends), the slot goes to the next live streamer down your list, and it rejoins fast when a stream restarts (it re-checks every ~30s instead of every 5 minutes, with no cooldown)",
+    "new: you can set how many streamers to watch at once (the concurrent cap; default 6)",
+    "new: bulk-paste streamers \u2014 paste a whole list (one per line or comma-separated) into the streamer box and it adds them all"
   ],
-  "sha256": "88d99aa79cdbe5edc68e706ca7fed5916d65cb527e234dc73c6dd8de68c1b32c",
-  "signature": "b8ADznZO+/tJ2wIpXwnF2SOsK3r4Dmh6BbYbOGCXTgzF/QRADW3Tl3YpRq5wpOZTdgggktNqIN3DC3tI9Y6jDQ=="
+  "sha256": "0270f9c5e66f8a3991c817de406924bf43fb3033373c69f6553a1434d9a05e33",
+  "signature": "v17lv+59VgbSd7vQSUmw12q/cLEw4dpqTmFSmfaJfhIpO91Rsfn2ABciGUrO9AHMuj0I57L+X4QsoRZrp3cFAg=="
 }
