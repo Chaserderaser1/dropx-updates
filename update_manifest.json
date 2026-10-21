@@ -1,8 +1,8 @@
 {
-  "version": "1.9.270",
+  "version": "1.9.271",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.270/DropXV1.9.270.zip",
-  "fileName": "DropXV1.9.270.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.271/DropXV1.9.271.zip",
+  "fileName": "DropXV1.9.271.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,8 +13,8 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "diagnostics: the emulator bot now captures a full live state snapshot (root/su/Magisk/channel/login/creds/network) to its log and the 'Send diagnostics' zip, so a failing bot shows exactly where and why it breaks. Also carries the 1.9.269 Magisk bot-root fix."
+    "fix: the Magisk Superuser Request popup no longer requires manual tapping. The bot now auto-grants its own root (one hidden tap) so su is silent for the session \u2014 no more tapping Grant 6 times. Carries the 1.9.269/270 fixes (bot-root regression + diagnostics)."
   ],
-  "sha256": "2ab76c7cda32538567c4c0c51f8977657d425366c30f868a44b8478b6ff0dcd6",
-  "signature": "gcB47lgNxNZWLzchUaJsPjIz3yezTH6k+wZkCbA429wJfi+mr6186cMOOzP5Fy6Y1Kua37+kKs89ms4X4GJPAA=="
+  "sha256": "86d51a259228e17310522e24744a1e34066b8331f89ddb04b67582a5f10c7512",
+  "signature": "EGmWsK9rjN+sZB0RQX+OYdwq4cPX7dFGxMASq0cQr+IViTeLV8yNyqvPTPly6Ke/pd/9iyo4IqwuaGt2Fm5HBQ=="
 }
