@@ -1,20 +1,27 @@
 {
-  "version": "1.9.271",
+  "version": "1.9.297",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.271/DropXV1.9.271.zip",
-  "fileName": "DropXV1.9.271.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.297/DropXV1.9.297.zip",
+  "fileName": "DropXV1.9.297.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
   "harvesterRuntimeVersion": "2",
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "2",
+  "notes": [
+    "new: Giveaway filters now decide which giveaways your accounts ENTER - keywords + gift-card type/amount gate entries, not just the feed",
+    "feat: Gift cards prioritized - the highest-dollar card floats to the top, with a type picker and a low-amount floor",
+    "new: Hold mode (advanced) - one account can hold many live giveaway streams at once; off by default",
+    "feat: Pick exactly which accounts the fleet runs, plus suggested-keyword chips to fill filters fast",
+    "new: Live address & card readers, and a bulk editor to set addresses/cards across many accounts at once",
+    "perf: Faster account generation and a wider, faster giveaway crawler that finds more live giveaways",
+    "fix: Steadier account setup - iCloud relay cleanup, fewer UI flickers, clearer setup status",
+    "fix: Many giveaway-fleet reliability and honesty fixes (accurate live counts, safer token handling)"
+  ],
+  "sha256": "3a7ccc8d4a95d569d41bb4225cb8e4968e2b32201ad1c2ccb5a0bb9b56295013",
   "whatnotRuntimeSha256": "9b6d665f1574fef3c705899ff17dfa8029aaf4a63a9cb56b5c720d44f304a852",
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
-  "notes": [
-    "fix: the Magisk Superuser Request popup no longer requires manual tapping. The bot now auto-grants its own root (one hidden tap) so su is silent for the session \u2014 no more tapping Grant 6 times. Carries the 1.9.269/270 fixes (bot-root regression + diagnostics)."
-  ],
-  "sha256": "86d51a259228e17310522e24744a1e34066b8331f89ddb04b67582a5f10c7512",
-  "signature": "EGmWsK9rjN+sZB0RQX+OYdwq4cPX7dFGxMASq0cQr+IViTeLV8yNyqvPTPly6Ke/pd/9iyo4IqwuaGt2Fm5HBQ=="
+  "signature": "YYKottYUwZuRUqFvoZ1H8viLX7GsIhyDAaZJeSnAzUP/vfxUG76+evtBCtz3NgmCrrSzB/7EVV8fe3fh8MbOBA=="
 }
