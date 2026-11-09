@@ -1,8 +1,8 @@
 {
-  "version": "1.9.297",
+  "version": "1.9.298",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.297/DropXV1.9.297.zip",
-  "fileName": "DropXV1.9.297.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.298/DropXV1.9.298.zip",
+  "fileName": "DropXV1.9.298.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -10,18 +10,17 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "2",
   "notes": [
-    "new: Giveaway filters now decide which giveaways your accounts ENTER - keywords + gift-card type/amount gate entries, not just the feed",
-    "feat: Gift cards prioritized - the highest-dollar card floats to the top, with a type picker and a low-amount floor",
-    "new: Hold mode (advanced) - one account can hold many live giveaway streams at once; off by default",
-    "feat: Pick exactly which accounts the fleet runs, plus suggested-keyword chips to fill filters fast",
-    "new: Live address & card readers, and a bulk editor to set addresses/cards across many accounts at once",
-    "perf: Faster account generation and a wider, faster giveaway crawler that finds more live giveaways",
-    "fix: Steadier account setup - iCloud relay cleanup, fewer UI flickers, clearer setup status",
-    "fix: Many giveaway-fleet reliability and honesty fixes (accurate live counts, safer token handling)"
+    "perf: Giveaway crawler refreshes ~2x faster (30s) and the fleet picks up new streams almost instantly",
+    "perf: Faster cold start - live streams show in seconds, not ~a minute",
+    "feat: A gift-card in the stream TITLE is entered even if it doesn't match your keywords",
+    "feat: Less picky on amount - once you pick a gift-card brand, that brand enters regardless of the dollar amount",
+    "fix: 'AMZN' is now recognized as Amazon",
+    "ui: Streamers you're entering on are pinned to the top and highlighted green",
+    "ui: The 'next scan' timer counts down by the second; a scan shows 'Discovering live catalog...'"
   ],
-  "sha256": "3a7ccc8d4a95d569d41bb4225cb8e4968e2b32201ad1c2ccb5a0bb9b56295013",
+  "sha256": "03076e13a4154deb2989f086da3932f5a22110acc5a1bf5892b598816a716ad0",
   "whatnotRuntimeSha256": "9b6d665f1574fef3c705899ff17dfa8029aaf4a63a9cb56b5c720d44f304a852",
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
-  "signature": "YYKottYUwZuRUqFvoZ1H8viLX7GsIhyDAaZJeSnAzUP/vfxUG76+evtBCtz3NgmCrrSzB/7EVV8fe3fh8MbOBA=="
+  "signature": "K0H9OFEwXl+u4LwXncARV82Tnxvcd+cXJpy6ZTBszBf/n99OlrF1ejFgh+5e8sVGMg1CS/HKzhdmcVFZUQsOBg=="
 }
