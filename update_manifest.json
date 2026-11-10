@@ -1,8 +1,8 @@
 {
-  "version": "1.9.298",
+  "version": "1.9.299",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.298/DropXV1.9.298.zip",
-  "fileName": "DropXV1.9.298.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.299/DropXV1.9.299.zip",
+  "fileName": "DropXV1.9.299.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -10,17 +10,13 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "2",
   "notes": [
-    "perf: Giveaway crawler refreshes ~2x faster (30s) and the fleet picks up new streams almost instantly",
-    "perf: Faster cold start - live streams show in seconds, not ~a minute",
-    "feat: A gift-card in the stream TITLE is entered even if it doesn't match your keywords",
-    "feat: Less picky on amount - once you pick a gift-card brand, that brand enters regardless of the dollar amount",
-    "fix: 'AMZN' is now recognized as Amazon",
-    "ui: Streamers you're entering on are pinned to the top and highlighted green",
-    "ui: The 'next scan' timer counts down by the second; a scan shows 'Discovering live catalog...'"
+    "fix: Manual sign-in no longer crashes on the saving-account step, and the sign-in browser always closes",
+    "new: See each account's login (email + password) in the Email pool, behind your DropX password",
+    "security: Account passwords are generated with stronger randomness"
   ],
-  "sha256": "03076e13a4154deb2989f086da3932f5a22110acc5a1bf5892b598816a716ad0",
+  "sha256": "86583531ed0aa8cd64291769988b611e05310cd8fbb82e90a9eb305480dd745b",
   "whatnotRuntimeSha256": "9b6d665f1574fef3c705899ff17dfa8029aaf4a63a9cb56b5c720d44f304a852",
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
-  "signature": "K0H9OFEwXl+u4LwXncARV82Tnxvcd+cXJpy6ZTBszBf/n99OlrF1ejFgh+5e8sVGMg1CS/HKzhdmcVFZUQsOBg=="
+  "signature": "YmiuMt1xslWpPjH2wU1czpd2GYpQmEYGTpowcfFpCU7M2YKuT6SJ7+IrMvI2gciC7hlQmIwDHu6HLKUTywYrDw=="
 }
