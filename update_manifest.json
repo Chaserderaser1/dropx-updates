@@ -1,8 +1,8 @@
 {
-  "version": "1.9.300",
+  "version": "1.9.301",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.300/DropXV1.9.300.zip",
-  "fileName": "DropXV1.9.300.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.301/DropXV1.9.301.zip",
+  "fileName": "DropXV1.9.301.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -10,12 +10,12 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "2",
   "notes": [
-    "fix: Manual sign-in no longer closes DropX after the browser closes \u2014 the account check now runs in an isolated step, so a manual login always finishes and saves",
-    "reliability: a native fault during the account check can never take the app down; crash diagnostics were added"
+    "fix: Manual sign-in no longer crashes on some PCs - the account check collided with the in-app browser runtime; it now completes and saves reliably",
+    "reliability: hardened against a native-library load conflict that could close the app during sign-in"
   ],
-  "sha256": "ff2c699a7fed6f11351f40312b36786ef5dcbb503b4d146f8a44e0801913ed27",
+  "sha256": "cab8c25d28f9b46efcea5f7b5fbf2c5e5983d583586d597bc1039fb48122d8f3",
   "whatnotRuntimeSha256": "9b6d665f1574fef3c705899ff17dfa8029aaf4a63a9cb56b5c720d44f304a852",
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
-  "signature": "ANLG4BeU4w99gU5eADe8vGt3lomJoXTItfEEyzPW+MogLZABX72FtHGPQagdDjO2j8q6XKusSasvAdqdWGJOBg=="
+  "signature": "HqZoYUd4WcY7oGwFF2aI5eQS6VI8QFOJSXzLPlRXOjndnzy2bwO+bVVqudxq859zY+B1jN0f48CCtKnLg3VYBA=="
 }
