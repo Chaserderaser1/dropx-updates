@@ -1,8 +1,8 @@
 {
-  "version": "1.9.303",
+  "version": "1.9.304",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.303/DropXV1.9.303.zip",
-  "fileName": "DropXV1.9.303.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.304/DropXV1.9.304.zip",
+  "fileName": "DropXV1.9.304.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -10,18 +10,18 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "2",
   "notes": [
-    "new: the giveaway crawler reads the whole Whatnot catalog on its first scan, and scans faster",
-    "new: every account holds up to 50 live streams at once - pick which accounts run when you press Start, and change them (or the crawler account) while it is running",
-    "new: the crawl feed pins the streams your accounts are really in at the top, in green, most entered first, with why each one was picked",
-    "new: accounts follow the host before entering a giveaway",
-    "fix: giveaways are picked by most entries and viewers instead of a near-random order; empty slots are filled with the most entered streams",
-    "fix: accounts pinned in Per-account proxies now really use that proxy for everything they send while entering; nothing falls back to your own IP when a proxy or settings file cannot be read",
-    "fix: manual-login accounts - the address and card you add now stick (it asks for a full name)",
-    "fix: sign-in no longer stalls after a crawler scan, more than 8 accounts can enter, and a short network drop no longer reads as a signed-out account"
+    "new: giveaway filters now decide what your accounts hold and enter - ticked gift cards and your words get the slots first, limits (minimum viewers, minimum gift card value, never-words) are never broken, and the crawl list shows why each stream was picked or skipped",
+    "new: the moment a winner is rolled on a stream an account is holding, that slot moves to the next best stream",
+    "new: the giveaway crawler is about three times faster and reads every live stream on every pass; the crawl list shows the whole catalog",
+    "new: auto-assign proxies - one proxy for every two accounts, straight down your list (premium ISP proxies recommended for giveaways)",
+    "new: the entries counter at the top counts every entry your accounts make today and this week",
+    "fix: streams are ranked by entries plus viewers, so a busy stream whose giveaway just opened is no longer skipped",
+    "fix: every entry is written to the activity log",
+    "fix: the window resizes and condenses properly again"
   ],
-  "sha256": "d6a436a56b3fff4e7e6f958609245c48596b7f0c357a285d8eb2e2b4ae3a2af2",
+  "sha256": "2c20480750707592a992021621e87fd53e50b9435389f47610f837148ec99931",
   "whatnotRuntimeSha256": "9b6d665f1574fef3c705899ff17dfa8029aaf4a63a9cb56b5c720d44f304a852",
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
-  "signature": "/EQqvDy8E0xAcz5Q9eO+r8zAwi/bxx6FItwf1xZ90JdY7CUcj6eepPk5U8ujUci7syF+QccZGvw7QCEuRSTADg=="
+  "signature": "5+Yff9JAVzWBWigeiblpxz8+0uQD+6LNKN3fYojAva5m6jUVEwBmWlfiENfzOR4Y3DFP27E354cny+rPwsd4Bg=="
 }
