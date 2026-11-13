@@ -1,8 +1,8 @@
 {
-  "version": "1.9.305",
+  "version": "1.9.306",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.305/DropXV1.9.305.zip",
-  "fileName": "DropXV1.9.305.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.306/DropXV1.9.306.zip",
+  "fileName": "DropXV1.9.306.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -10,15 +10,19 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "2",
   "notes": [
-    "new: Create an account by hand - opens a sign-up window on a proxy you pick (or your own internet), waits while you do the phone, address and card yourself, then saves the account",
-    "new: Gift card codes - when a giveaway you won says to message the seller for the code, DropX can send that message for you and collect the reply (off until you switch it on)",
-    "new: your wins now show the Whatnot order number (only on your screen)",
-    "new: proxy boxes accept a provider's cURL example line and turn it into a proxy for you",
-    "fix: proxy error messages no longer repeat what you pasted"
+    "feat: Giveaway entries now count only once Whatnot confirms them - an unconfirmed entry retries, and a hard rejection hops to the next-best giveaway",
+    "security: Lock the Card vault, Email pool and Settings behind a password or a PIN - or leave it off, switch anytime",
+    "feat: Add a streamer to your watch list right from the crawl feed with a new + Watch button",
+    "feat: View all your wins from the Recent wins card",
+    "ui: Simpler proxy setup - fewer, clearer options and no redundant proxy panel",
+    "perf: Smoother, less laggy Giveaways tab",
+    "fix: Win count at the top now matches the Recent wins list",
+    "fix: Gift-card code count shows the right number",
+    "fix: Giveaway activity log lines read in plain English again"
   ],
-  "sha256": "27882cc6be46ac4a19fc8997e3e745be7c4477b374bbe02b6ffcfc5f292b75cd",
+  "sha256": "925790f9716333cb842cb68ccb6da17ba6e7bca523dd36cc2e6a3fef502ccde4",
   "whatnotRuntimeSha256": "9b6d665f1574fef3c705899ff17dfa8029aaf4a63a9cb56b5c720d44f304a852",
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
-  "signature": "kfjQ1wASMbxiOtU8oRRUHUVEkkq7vw+k83wUYlb3HkZX3wZQFoUjjUxeB6ONkvV+dVhahSAnQnBSbZgntyTeCA=="
+  "signature": "e1Y0t9mHqnrV5n4GniHBF6u6d+5zgvQxE8mGDZcmY1w6RtkbuzZEBxcYTSUiB96RkAEUZ1Nhdb+PH20pooaBAQ=="
 }
