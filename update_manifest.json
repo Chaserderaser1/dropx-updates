@@ -1,8 +1,8 @@
 {
-  "version": "1.9.306",
+  "version": "1.9.308",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.306/DropXV1.9.306.zip",
-  "fileName": "DropXV1.9.306.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.308/DropXV1.9.308.zip",
+  "fileName": "DropXV1.9.308.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -10,19 +10,15 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "2",
   "notes": [
-    "feat: Giveaway entries now count only once Whatnot confirms them - an unconfirmed entry retries, and a hard rejection hops to the next-best giveaway",
-    "security: Lock the Card vault, Email pool and Settings behind a password or a PIN - or leave it off, switch anytime",
-    "feat: Add a streamer to your watch list right from the crawl feed with a new + Watch button",
-    "feat: View all your wins from the Recent wins card",
-    "ui: Simpler proxy setup - fewer, clearer options and no redundant proxy panel",
-    "perf: Smoother, less laggy Giveaways tab",
-    "fix: Win count at the top now matches the Recent wins list",
-    "fix: Gift-card code count shows the right number",
-    "fix: Giveaway activity log lines read in plain English again"
+    "feat: Giveaways you can't win now show 'not eligible' instead of a stuck 'entry sent'",
+    "feat: The fleet skips giveaways you're not eligible for (no wasted entry) and enters more mid-stream ones",
+    "new: Live notice when an account's Whatnot login expires mid-run - a banner tells you to re-sign it in",
+    "feat: When proxies don't cover every account, run the extra one on your own IP",
+    "ui: View all wins opens a popup so the page no longer stretches"
   ],
-  "sha256": "925790f9716333cb842cb68ccb6da17ba6e7bca523dd36cc2e6a3fef502ccde4",
+  "sha256": "52f3e01720bb7f6cab806332bc4a52051416541b99f1ef7a2736d0dfa944a17c",
   "whatnotRuntimeSha256": "9b6d665f1574fef3c705899ff17dfa8029aaf4a63a9cb56b5c720d44f304a852",
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
-  "signature": "e1Y0t9mHqnrV5n4GniHBF6u6d+5zgvQxE8mGDZcmY1w6RtkbuzZEBxcYTSUiB96RkAEUZ1Nhdb+PH20pooaBAQ=="
+  "signature": "a+AasmM/u+nIWqU2ZESNCIPXi0mmnBZxZBfy74C4hQK2JINDlCvIs685OecsAKTVPzSpCssz57YvTFdqkeUWDQ=="
 }
