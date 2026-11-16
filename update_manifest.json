@@ -1,8 +1,8 @@
 {
-  "version": "1.9.310",
+  "version": "1.9.311",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.310/DropXV1.9.310.zip",
-  "fileName": "DropXV1.9.310.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.311/DropXV1.9.311.zip",
+  "fileName": "DropXV1.9.311.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -10,14 +10,12 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "2",
   "notes": [
-    "ui: \"Use my proxies\" now opens the per-account list with a clear \"Start entering\" button (no more guessing whether Close starts it)",
-    "fix: Giveaways will no longer start an account on your real IP if your proxies can't be set up \u2014 it stops and tells you instead",
-    "ui: The crawl feed shows the full giveaway title, and the Wins \"View all\" no longer blows up the trophy image",
-    "fix: Creating an account by hand opens whatnot.com, notices when you close the browser, and shows a centered \"checking proxy\" spinner"
+    "fix: Accounts no longer get stuck on \u201cneeds to enter\u201d \u2014 the giveaway test-entry now passes the moment Whatnot accepts the entry, instead of waiting to catch a broadcast it rarely could",
+    "fix: The test-entry no longer checks already-closed giveaways from a stale list \u2014 it falls back to a live scan so it finds giveaways that are actually open"
   ],
-  "sha256": "e83ec8cef8ed2f0e71daa4b969f4b78936be75a1427538a40750976113645043",
+  "sha256": "4826ad083e5f0f75d8009b3f46f941c8959dc0f4067011b77e49745e665cb688",
   "whatnotRuntimeSha256": "9b6d665f1574fef3c705899ff17dfa8029aaf4a63a9cb56b5c720d44f304a852",
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
-  "signature": "NQ8Hx9FcJ2JeCY1jOhSXiXtBhLXwXTbXoTvxt+7J2pQF+3Nmz5fryii0UwXagNB4EacIJN8zX4eTIb7U8j3oDw=="
+  "signature": "VUpe7RsmDu5OhFNeXYWeXikDcfPEGxXl7p6VZ0b429BHFklOivcd2beLtsJAIMceXldSopC0GDQ6m0ul70z1Bw=="
 }
