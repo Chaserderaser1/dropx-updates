@@ -1,8 +1,8 @@
 {
-  "version": "1.9.311",
+  "version": "1.9.312",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.311/DropXV1.9.311.zip",
-  "fileName": "DropXV1.9.311.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.312/DropXV1.9.312.zip",
+  "fileName": "DropXV1.9.312.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -10,12 +10,13 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "2",
   "notes": [
-    "fix: Accounts no longer get stuck on \u201cneeds to enter\u201d \u2014 the giveaway test-entry now passes the moment Whatnot accepts the entry, instead of waiting to catch a broadcast it rarely could",
-    "fix: The test-entry no longer checks already-closed giveaways from a stale list \u2014 it falls back to a live scan so it finds giveaways that are actually open"
+    "fix: Sign-in no longer fails with a certificate/SSL error on some PCs \u2014 DropX now ships its own trusted certificates instead of relying on Windows', so it works on fresh, cleaned-up, or antivirus-protected systems",
+    "fix: Creating an account by hand through a proxy no longer says \u201cduplicate proxy\u201d or refuses to open the window \u2014 a proxy you already saved is just reused",
+    "new: You can name your proxies (Rename under Proxies) and pick a saved proxy by its name when you create an account by hand"
   ],
-  "sha256": "4826ad083e5f0f75d8009b3f46f941c8959dc0f4067011b77e49745e665cb688",
+  "sha256": "c1ffebeb1b1306070ba5972e6d1a92ef0d59fb22c0c3db274b4b374b161e4fdf",
   "whatnotRuntimeSha256": "9b6d665f1574fef3c705899ff17dfa8029aaf4a63a9cb56b5c720d44f304a852",
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
-  "signature": "VUpe7RsmDu5OhFNeXYWeXikDcfPEGxXl7p6VZ0b429BHFklOivcd2beLtsJAIMceXldSopC0GDQ6m0ul70z1Bw=="
+  "signature": "UE4/0EzeBcrRVVDljdUNlUkSBsSKHXG24wBwHnDnNnLHZbYxfjW8U3aZokHKo3AyYqPDmOLCMJgH+7FCXcOJCg=="
 }
