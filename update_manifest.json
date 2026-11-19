@@ -1,8 +1,8 @@
 {
-  "version": "1.9.312",
+  "version": "1.9.313",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.312/DropXV1.9.312.zip",
-  "fileName": "DropXV1.9.312.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.313/DropXV1.9.313.zip",
+  "fileName": "DropXV1.9.313.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -10,13 +10,14 @@
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "2",
   "notes": [
-    "fix: Sign-in no longer fails with a certificate/SSL error on some PCs \u2014 DropX now ships its own trusted certificates instead of relying on Windows', so it works on fresh, cleaned-up, or antivirus-protected systems",
-    "fix: Creating an account by hand through a proxy no longer says \u201cduplicate proxy\u201d or refuses to open the window \u2014 a proxy you already saved is just reused",
-    "new: You can name your proxies (Rename under Proxies) and pick a saved proxy by its name when you create an account by hand"
+    "perf: Faster giveaway replacement and tighter crawler sync",
+    "fix: Your filter picks pin to the top of the crawl feed",
+    "new: Wins are stamped with the date and time",
+    "new: Email pool shows the full address once you unlock it"
   ],
-  "sha256": "c1ffebeb1b1306070ba5972e6d1a92ef0d59fb22c0c3db274b4b374b161e4fdf",
   "whatnotRuntimeSha256": "9b6d665f1574fef3c705899ff17dfa8029aaf4a63a9cb56b5c720d44f304a852",
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
-  "signature": "UE4/0EzeBcrRVVDljdUNlUkSBsSKHXG24wBwHnDnNnLHZbYxfjW8U3aZokHKo3AyYqPDmOLCMJgH+7FCXcOJCg=="
+  "sha256": "4681e1c5ec63c28f65fbaa39d698a317a00e6156f44507d21493e1fd9490de8d",
+  "signature": "PMZr5IzbtZiJFiNBOPQC+atJIH0hMBfIy4/yTgMv9n9uEgwlqRTQ77DeID/pZTfRYrO0B/Lhi7Doj4KYM2nEBw=="
 }
