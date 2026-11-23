@@ -1,23 +1,23 @@
 {
-  "version": "1.9.313",
+  "version": "1.9.316",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.313/DropXV1.9.313.zip",
-  "fileName": "DropXV1.9.313.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.316/DropXV1.9.316.zip",
+  "fileName": "DropXV1.9.316.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
   "harvesterRuntimeVersion": "2",
   "dropxRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/DropXRuntime.zip",
   "dropxRuntimeVersion": "2",
-  "notes": [
-    "perf: Faster giveaway replacement and tighter crawler sync",
-    "fix: Your filter picks pin to the top of the crawl feed",
-    "new: Wins are stamped with the date and time",
-    "new: Email pool shows the full address once you unlock it"
-  ],
   "whatnotRuntimeSha256": "9b6d665f1574fef3c705899ff17dfa8029aaf4a63a9cb56b5c720d44f304a852",
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
-  "sha256": "4681e1c5ec63c28f65fbaa39d698a317a00e6156f44507d21493e1fd9490de8d",
-  "signature": "PMZr5IzbtZiJFiNBOPQC+atJIH0hMBfIy4/yTgMv9n9uEgwlqRTQ77DeID/pZTfRYrO0B/Lhi7Doj4KYM2nEBw=="
+  "sha256": "632f636e92b016d4801515f23c2636dc2af05dcb6f9398c08ef79272fcf8804f",
+  "notes": [
+    "fix: Crawler now catches every live stream, including Pokemon and trading-card shows",
+    "fix: More reliable giveaway entry \u2014 tracks the host and records why an entry was declined",
+    "fix: Accounts added by hand prompt to add a payment card when one is missing",
+    "fix: Sign-ins awaiting confirmation no longer use up a login token"
+  ],
+  "signature": "whMKKzH9d/fBUQ4Bt4YltdnMbRdPV7KOlHQusCGj5hBLgR4qzk3IF1MVPs4QsxEwxTYE7wj8PACCBfrvJ1fUAA=="
 }
