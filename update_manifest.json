@@ -1,8 +1,8 @@
 {
-  "version": "1.9.316",
+  "version": "1.9.317",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.316/DropXV1.9.316.zip",
-  "fileName": "DropXV1.9.316.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.317/DropXV1.9.317.zip",
+  "fileName": "DropXV1.9.317.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -12,12 +12,13 @@
   "whatnotRuntimeSha256": "9b6d665f1574fef3c705899ff17dfa8029aaf4a63a9cb56b5c720d44f304a852",
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
-  "sha256": "632f636e92b016d4801515f23c2636dc2af05dcb6f9398c08ef79272fcf8804f",
+  "sha256": "6bc9cb73b2b7f83e25fd6ae3369e33767071900f9a928dbc0700f70830d8da30",
   "notes": [
-    "fix: Crawler now catches every live stream, including Pokemon and trading-card shows",
-    "fix: More reliable giveaway entry \u2014 tracks the host and records why an entry was declined",
-    "fix: Accounts added by hand prompt to add a payment card when one is missing",
-    "fix: Sign-ins awaiting confirmation no longer use up a login token"
+    "fix: Account generator reworked \u2014 more reliable sign-ups, and several accounts can be made at once",
+    "new: Make accounts through residential proxies \u2014 each account's address and card are set up over the same connection it was made on",
+    "new: Schedule when your giveaway accounts start and stop (all accounts or per account)",
+    "new: Per-account \u201cgiveaways at a time\u201d limit, plus a thank-you message for every gift-card win",
+    "fix: Gift-card wins detected more accurately, and an unused SMS number is always released"
   ],
-  "signature": "whMKKzH9d/fBUQ4Bt4YltdnMbRdPV7KOlHQusCGj5hBLgR4qzk3IF1MVPs4QsxEwxTYE7wj8PACCBfrvJ1fUAA=="
+  "signature": "FK+Jmjt54dZ1USSYpv9e5+IywoM39lH1x1kghsKMzrtNtrVqcnMIIFLN/0WBex26BDl0zWnrW+1eS8BtSIYACw=="
 }
