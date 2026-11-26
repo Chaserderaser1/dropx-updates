@@ -1,8 +1,8 @@
 {
-  "version": "1.9.318",
+  "version": "1.9.321",
   "packageType": "zip",
-  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.318/DropXV1.9.318.zip",
-  "fileName": "DropXV1.9.318.zip",
+  "downloadUrl": "https://github.com/Chaserderaser1/dropx-updates/releases/download/v1.9.321/DropXV1.9.321.zip",
+  "fileName": "DropXV1.9.321.zip",
   "whatnotRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/WhatnotRuntime.zip",
   "whatnotRuntimeVersion": "12",
   "harvesterRuntimeUrl": "https://media.githubusercontent.com/media/Chaserderaser1/dropx-updates/main/HarvesterRuntime.zip",
@@ -13,12 +13,13 @@
   "harvesterRuntimeSha256": "5aa577148c49a321f43abebb6044714066c74b040c8cfc94d4ceaf7b2b3a0613",
   "dropxRuntimeSha256": "23c4da38ddd7a93a27ac9a2890cf1a0dc6e2454af7468da6779fb1f7702fbf43",
   "notes": [
-    "new: A gift-card code a seller sends as a picture now shows right in the win \u2014 no need to open Whatnot",
-    "new: Mark a gift-card code claimed to clear it from the list (recover it within 7 days); the win stays in Wins",
-    "new: Auto-replace a freshly-banned giveaway account with a spare or a fresh one (off by default, fully optional)",
-    "fix: A giveaway account no longer burns itself entering when no crawler is running",
-    "fix: The gift-card codes list stays short with a \u201cView all\u201d button so the Giveaways tab is not too long"
+    "new: Giveaway accounts now auto-stop. If Whatnot keeps refusing an account's entries, DropX pauses just that account and lets it enter again by itself.",
+    "new: Set a win cap to stop an account entering after a number of wins (per account or for all accounts).",
+    "fix: A passing network or proxy blip, or a banned account, no longer shows as 'token refused - sign in again'.",
+    "ui: The Settings tab now shows how each account was added - DropX generated, Created by hand, or Manual login.",
+    "fix: Removing an account now clears its proxy assignment too - removed accounts no longer linger in the proxy list.",
+    "fix: Real Whatnot handles are resolved more reliably when an account is made."
   ],
-  "sha256": "c6e3907471e65482c1ff785e81c28a973eafe38a2b7ed2a94ac91eea74a02e5e",
-  "signature": "1XFrCAlqVucPearURLSEN9pAGvKJUtT0xkp4zp54giktOd2ZYVrNUsXcl8NeOu0fc+gl3k9X0Q16DEofgRE3DA=="
+  "sha256": "397ba18cf71e7ea56fec393dfb979ddff6dc751fe60ae88a85d979b683d11da7",
+  "signature": "p9bP1DNgNGJ+hlXvojw00gOAiNNxDYyhrnyfbBRyhHGi/CmaX+012fcw8Wlt9hWcXCz34eibTw+imcGB3nfcCg=="
 }
